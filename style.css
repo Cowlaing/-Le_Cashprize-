@@ -7,22 +7,26 @@
 }
 
 li{
-    
     background-color: aqua;
-    margin:0;
-    padding : 0;
     border-radius:10px;
-    list-style-type: none;
-    
 }
 
 .menu-element{
     display:flex;
+    padding:2px;
+    margin: 5px;
+    text-align:center;
+    flex-direction:column;   
+}
+
+li.pratique{
+    padding:2px;
+    margin: 5px;
+}
+ul.ul-des-pratiques{
+    list-style-type:none;
     padding:0;
     margin:0;
-    text-align:center;
-    flex-direction:column;
-    list-style-type:none;
 }
 
 ul.menu{
@@ -30,7 +34,10 @@ ul.menu{
     float:left;
     display:inline-block;
     background-color: blue; 
-    align-items: center;  
+    align-items: center;
+    list-style-type:none;
+    padding:0;
+    margin:0;
 }
 
 h3{

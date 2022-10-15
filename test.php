@@ -3,6 +3,7 @@
 <head>
 <?php include "head.php"; ?>
 </head>
+
 <body>
 <?php include "header.php"; ?>
 <div class="colonne-gauche">
@@ -12,7 +13,7 @@
     </ul>
   </div>
 <div class ="liste-des-pratiques">
-    <ul class="ul-des-pratiques">
+    <ul class="ul-des-pratiques" id="ulp">
       <li id="pratique-une" class="pratique">
         <h3>Pratique n°1</h3>
         <p>Il faut baisser le chauffage quand on est pas la</p>
@@ -25,6 +26,7 @@
      
   </div>
 
-
+<script src="main.js"></script>
 </body>
+
 </html>

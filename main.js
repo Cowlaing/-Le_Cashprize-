@@ -1,4 +1,4 @@
-function Pratique(t,d){
+/*function Pratique(t,d){
     this.titre = t;
     this.description =d;
 }
@@ -17,4 +17,38 @@ function affichePratique(p){
     ul.append(nouvLi);
 }
 
-affichePratique(p);
+affichePratique(p);*/
+
+var requestURL = "pratiques.json";
+var request = new XMLHttpRequest();
+
+request.open('GET',requestURL);
+request.responseType ='json';
+request.send();
+
+request.onload = function(){
+    var pratiques = request.response;
+    afficheTout(pratiques);
+}
+
+function affiche(jsonObj){
+    let nouvLi = document.createElement('li');
+    let ul = document.getElementById("ulp");
+    let fam = document.createElement("h3");
+    let reco = document.createElement("p");
+
+    fam.textContent = jsonObj['famille'];
+    reco.textContent = jsonObj['recommandation'];
+    nouvLi.appendChild(fam);
+    nouvLi.appendChild(reco);
+    ul.appendChild(nouvLi)
+}
+
+function afficheTout(jsonObj){
+    var prat = jsonObj['pratiques'];
+    for (var i =0; i<prat.length;i++){
+        affiche(prat[i]);
+    }
+}
+
+affiche(pratiques[0]);

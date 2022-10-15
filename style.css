@@ -56,9 +56,11 @@ header{
     border-radius: 10px;
 }
 
-li{
+.ul-des-pratiques>li{
     background-color: aqua; 
     border-radius:10px;
+    padding:2px;
+    margin: 5px;
 }
 
 .menu-element{
@@ -69,10 +71,6 @@ li{
     flex-direction:column;   
 }
 
-li.pratique{
-    padding:2px;
-    margin: 5px;
-}
 ul.ul-des-pratiques{
     list-style-type:none;
     padding:0;

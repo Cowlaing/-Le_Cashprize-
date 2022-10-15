@@ -1,0 +1,16 @@
+{
+    "pratiques":[
+        {
+            "ID":"STR-1",
+            "famille":"STRATEGIE",
+            "recommandation":"Définir et valider les besoins et les enjeux du projet afin d'anticiper les impacts"
+        },
+        {
+            "ID":"SPC-1",
+            "famille":"SPECIFICATIONS",
+            "recommandation":"Organiser les ressources humaines projets pour permettre la prise en compte de la démarche NR"
+        }
+        
+    ]
+   
+}

@@ -77,17 +77,46 @@ ul.ul-des-pratiques{
     margin:0;
 }
 
-ul.menu{
-    display:flex;
+.colonne-gauche{
     float:left;
-    display:inline-block;
-    background-color: blue; 
-    align-items: center;
-    list-style-type:none;
-    padding:0;
-    margin:0;
+    display:flex;
+    flex-direction:column;
+    background-color:#ffe26a ;
+
 }
 
-h3{
+.form-filtre{
+    display:flex;
+    flex-direction: column;
+}
 
+li{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+#cases-colonne-gauche{
+    margin:0;
+    padding:0;
+}
+#cases-colonne-gauche>li{
+    border-top: solid;
+    border-color: #498074;
+}
+
+
+#premier-cases-colonne-gauche{
+    border-top: none;
+}
+
+.type-filtre-choix{
+    margin:0;
+    padding:0;
+}
+
+#titre-filtre{
+    align-self: center;
+    font-size: large;
+    font-weight: bold;
 }

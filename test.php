@@ -7,10 +7,40 @@
 <body>
 <?php include "header.php"; ?>
 <div class="colonne-gauche">
-    <ul class="menu">
-      <li class="menu-element">menu 1</li>
-      <li class="menu-element">menu 2</li>
-    </ul>
+<form action ="" method="get" class="form-filtre">
+<h id="titre-filtre">Filtres</h>
+  <ul id="cases-colonne-gauche">
+    <li>
+      <h class="type-filtre" id="type-pratique-filtre">Type de pratique :</h>
+      <ul class="type-filtre-choix">
+        <li>
+          <input type="checkbox" name="spec" id="spec">
+          <label for="spec">Specifications</label>
+        </li>
+        <li>
+          <input type="checkbox" name="strat" id="strat">
+          <label for="strat">Strategie</label>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <h class = "type-filtre" id="autre-type-filtre">Autre type de filtre :</h>
+      <ul class="type-filtre-choix">
+        <li>
+          <input type="radio" name="autreFiltre" id="autreFiltre1">
+          <label for="autreFiltre">Choix 1<label>
+        </li>
+        <li>
+          <input type="radio" name="autreFiltre" id="autreFiltre2">
+          <label for="autreFiltre2">Choix 2</label>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <input type="submit" value="Valider" id="bouton-valider">
+    </li>
+  </form>
+  </ul>
   </div>
 <div class ="liste-des-pratiques">
     <ul class="ul-des-pratiques" id="ulp">

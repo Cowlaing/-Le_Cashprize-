@@ -36,8 +36,10 @@ function affiche(jsonObj){
     let ul = document.getElementById("ulp");
     let fam = document.createElement("h3");
     let reco = document.createElement("p");
-
+    nouvLi.classList.add('pratique',jsonObj['famille']);
+    
     fam.textContent = jsonObj['famille'];
+    
     reco.textContent = jsonObj['recommandation'];
     nouvLi.appendChild(fam);
     nouvLi.appendChild(reco);
@@ -51,4 +53,22 @@ function afficheTout(jsonObj){
     }
 }
 
-affiche(pratiques[0]);
+function afficheType(type){
+    var pratiques = request.response
+    var prat = pratiques['pratiques']
+    for (var i =0; i < prat.length;i++){
+        var jsonObj = prat[i];
+        if (jsonObj['famille'] == type){
+            affiche(jsonObj);
+        }
+    }
+}
+
+function afficheToutType(types){
+    for(var i = 0; i<types.length;i++){
+        afficheType(types[i]);
+    }
+}
+
+
+

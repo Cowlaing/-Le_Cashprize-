@@ -7,6 +7,8 @@
   <script src="script.js"></script>
 </head>
 <body>
+  <?php require 'header.php';  ?>
+
   ...
   <!-- Le reste du contenu -->
   ...

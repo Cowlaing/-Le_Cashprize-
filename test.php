@@ -7,18 +7,18 @@
 <body>
 <?php include "header.php"; ?>
 <div class="colonne-gauche">
-<form class="form-filtre">
+<form class="form-filtre" action="test.php">
 <h id="titre-filtre">Filtres</h>
   <ul id="cases-colonne-gauche">
     <li>
       <h class="type-filtre" id="type-pratique-filtre">Type de pratique :</h>
       <ul class="type-filtre-choix">
         <li>
-          <input type="checkbox" name="type[]" id="spec" value="spec">
+          <input type="checkbox" name="type[]" id="spec" value="spec" onclick="gestionFiltre('SPECIFICATIONS')">
           <label for="spec">Specifications</label>
         </li>
         <li>
-          <input type="checkbox" name="type[]" id="strat" value = "strat">
+          <input type="checkbox" name="type[]" id="strat" value = "strat" onclick="gestionFiltre('STRATEGIE')">
           <label for="strat">Strategie</label>
         </li>
       </ul>
@@ -37,7 +37,7 @@
       </ul>
     </li>
     <li>
-      <button onclick="afficheType('STRATEGIE')" id="bouton-valider">Valider</button>
+      <button  id="bouton-valider">Valider</button>
     </li>
   </form>
   </ul>

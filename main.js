@@ -1,23 +1,4 @@
-/*function Pratique(t,d){
-    this.titre = t;
-    this.description =d;
-}
 
-let p = new Pratique("Pratique 3","Eteindre les appareils");
-
-function affichePratique(p){
-    let nouvLi = document.createElement('li');
-    let ul = document.getElementById("ulp");
-    let titre = document.createElement("h3");
-    let desc = document.createElement("p");
-    titre.textContent = p.titre;
-    desc.textContent = p.description;
-    nouvLi.appendChild(titre);
-    nouvLi.appendChild(desc);
-    ul.append(nouvLi);
-}
-
-affichePratique(p);*/
 
 var requestURL = "pratiques.json";
 var request = new XMLHttpRequest();
@@ -53,20 +34,62 @@ function afficheTout(jsonObj){
     }
 }
 
-function afficheType(type){
-    var pratiques = request.response
-    var prat = pratiques['pratiques']
-    for (var i =0; i < prat.length;i++){
-        var jsonObj = prat[i];
-        if (jsonObj['famille'] == type){
-            affiche(jsonObj);
-        }
+var afficheT = new Map();
+afficheT.set("STRATEGIE",false); //De base tout n'est pas afficher;
+afficheT.set("SPECIFICATIONS",false)
+
+function cacherType(type){
+    //Cache tous les elements avec la classe type
+    var typeLi = document.getElementsByClassName(type);
+    for( var i = 0; i<typeLi.length; i++){
+        typeLi[i].classList.add("hidden");
+        
     }
 }
 
-function afficheToutType(types){
-    for(var i = 0; i<types.length;i++){
-        afficheType(types[i]);
+function afficheType(type){
+    //Affiche tout les elements avec la classe type
+    var typeAffiche = document.getElementsByClassName(type);
+    for(var i =0; i<typeAffiche.length;i++){
+        typeAffiche[i].classList.remove("hidden")
+    }
+    
+    
+}
+
+function afficheToutType(){
+    //Affiche tout les type de pratique
+    for(var[key,value] of afficheT){
+        afficheType(key);
+    }
+}
+
+function gestionFiltre(type){
+    //Appel de la fcontion avec le type à afficher
+    afficheT.set(type, !afficheT.get(type)); // Inversion de la valeur
+    //gestion de filtre type
+    //Verification si tout les elements sont false (situation de depart)
+    var allfalse = false;
+    for(var [key,value] of afficheT){
+        allfalse = allfalse || value; //vaut true si il y uniquement un true
+    }
+    allfalse = !allfalse; // donc tout n'est pas false
+
+    if(!allfalse){
+        for(var[key,value] of afficheT){
+            if(value){
+                afficheType(key);
+            }
+            else{
+                cacherType(key);
+            }    
+        }
+            
+
+    }
+    else{
+
+        afficheToutType();
     }
 }
 

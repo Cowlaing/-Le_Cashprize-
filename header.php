@@ -1,4 +1,4 @@
-<?php
+
     <header>
         <a href="Blog.html">
         <img class="logo" src="images/planete2.png" alt="logo"></a> <!--page accueil-->
@@ -28,4 +28,3 @@
         <div class="line3"></div>
         </div>
     </header>
-  ?>

@@ -3,12 +3,13 @@ body {
     margin: 0;
 }
 
+/*---HEADER----*/
 header {
     display: flex;
     align-items: center;
     padding: 2vh 2vh;
     border-bottom:1px solid rgb(1, 83, 71, 0.2);
-
+    margin-bottom: 10vh;
 }
 
 header h2 {
@@ -19,7 +20,7 @@ nav {
     padding-left: 5vh;
 }
 
-ul {
+.header {
     list-style: none;
     display: flex;
     padding: 0;
@@ -42,4 +43,18 @@ li {
     font: inherit;
     font-style: normal;
     font-size: 16px;
+}
+
+/*----ASIDE/MAIN-----*/
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vh;
+    gap: 3.2rem;
+}
+
+
+.aside {
+    
 }

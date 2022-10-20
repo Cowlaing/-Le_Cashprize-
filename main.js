@@ -6,6 +6,7 @@ var request = new XMLHttpRequest();
 request.open('GET',requestURL);
 request.responseType ='json';
 request.send();
+var pratiques = request.response;
 
 request.onload = function(){
     var pratiques = request.response;
@@ -19,17 +20,30 @@ function affiche(jsonObj){
     let ul = document.getElementById("ulp");
     let fam = document.createElement("h3");
     let reco = document.createElement("p");
+    let input = document.createElement("input");
     //Ajout de la classe et de l'id
     nouvLi.classList.add('pratique',jsonObj['famille']);
     nouvLi.setAttribute("id",jsonObj['ID']);
-    //Creation des textes
+    //Creation des textes des éléments
     fam.textContent = jsonObj['famille'];
     reco.textContent = jsonObj['recommandation'];
+    //Class bouton-ajouter et texte ajouter pour le bouton
+    
     //Ajout des éléments dans la document
     nouvArticle.appendChild(fam);
     nouvArticle.appendChild(reco);
-    nouvLi.appendChild(nouvArticle)
-    ul.appendChild(nouvLi)
+    //Configuration du bouton ajouter
+    input.type ="button";
+    input.value="Ajouter";
+    input.classList.add("bouton-ajouter");
+    input.addEventListener('click',function(){
+        ajouterPanier(jsonObj['ID']);
+    })
+    //Ajout du bouton
+    nouvArticle.appendChild(input);
+    //Ajout du reste des éléments
+    nouvLi.appendChild(nouvArticle);
+    ul.appendChild(nouvLi);
 }
 
 function afficheTout(jsonObj){
@@ -108,5 +122,38 @@ function gestionFiltre(type){
     }
 }
 
+//Partie gestion de panier
+
+
+//Le panier
+var panier = [];
+//La focntion
+function ajouterPanier(id){
+    //Récupère la liste des pratiques
+    var pratiques = request.response;
+    var prat = pratiques['pratiques'];
+    //On cherhce la pratique avec le bon id
+    let index = 0;
+    for (var i =0;i< prat.length;i++){
+        if(prat[i]['ID'] == id){
+            index = i;
+            stop;
+        }
+    }
+    //On recupere la pratique (objet Json)
+    let element = prat[index];
+    let pratique = document.getElementById(id);
+    //Verfions si l'element n'est pas deja dans le panier
+    if(!pratique.classList.contains("dans-panier")){
+        //Ajoute l'elemenet dans le panier
+        panier.push(element);
+        //Ajoute la classe "dans-panier"
+        pratique.classList.add("dans-panier");
+    }
+    else{
+        window.alert("Deja dans le panier");
+    }
+    
+}
 
 

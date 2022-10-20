@@ -1,9 +1,10 @@
 <!-- tout le "header de la page du site -->
 <header>
-    <h1 class = "title"> Conception pour le vert</h1>
-    <ul id ="menu-header">
-        <li> Onglet 1</li>
-        <li> Onglet 2 </li>
-        <li> Onglet 3 </li>
-    </ul>
+    <h2>DESIGN4GREEN - LE CASHPRIZE</h2>
+    <nav>
+        <ul>
+            <li><a class="Button" href="index.php">Critères</a></li>
+            <li><a class="Button" href="projet.php">Projet</a></li>
+        </ul>
+    </nav>
 </header>

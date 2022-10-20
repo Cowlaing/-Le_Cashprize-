@@ -1,126 +1,80 @@
-/* Light Lime: #abd699
-
-Fresh Lemon: #ffe26a
-
-Teal: #75c9b7
-
-Mint: #c7ddcc
-
-Navy: #16123f
- palette de couleur intéressante*/
-
-body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:#abd699;
-    margin:0;
-    padding:0;
+body {
+    background-color: #f3f3f0;
+    margin: 0;
 }
 
-header{
-    text-align: center;
-    align-items: center;
-}
-#menu-header{
+/*---HEADER----*/
+header {
     display: flex;
-    flex-direction: row;
-    background-color:#75c9b7 ;
-    
+    align-items: center;
+    padding: 2vh 2vh;
+    border-bottom:1px solid rgb(1, 83, 71, 0.2);
+    margin-bottom: 10vh;
 }
-#menu-header>li{
+
+
+header h2 {
+    font-size: 1rem;
+}
+
+nav {
+    padding-left: 5vh;
+}
+
+.header {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+li {
+    /*padding-right: 20px;*/
     list-style-type: none;
-    margin:auto;
-    padding:5px;
-    background-color:#75c9b7 ;
-    width: 100%;
-}
-
-#menu-header>li:hover{
-    background-color: #498074;
-    -webkit-transition: background-color 0.5s ease-out;
-    -moz-transition: background-color 0.5s ease-out;
-    -o-transition: background-color 0.5s ease-out;
-    transition: background-color 0.5s ease-out;
-}
-
-.title{
-    font-size: large;
-    color:#498074;
-    margin-left:auto;
-    margin-right: auto;
-
-}
-.ul-des-pratiques{
-    background-color : greenyellow;
-    display:flex;
-    flex-direction:column;
-    border-radius: 10px;
-}
-
-.ul-des-pratiques>li{
-    background-color: aqua; 
-    border-radius:10px;
-    padding:2px;
-    margin: 5px;
-}
-
-.menu-element{
-    display:flex;
-    padding:2px;
-    margin: 5px;
-    text-align:center;
-    flex-direction:column;   
-}
-
-ul.ul-des-pratiques{
-    list-style-type:none;
-    padding:0;
     margin:0;
+    padding:0;
 }
 
-.colonne-gauche{
+.Button {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(1, 83, 71);
+    display: inline-block;
+    border: 0;
+    border-radius: 50px;
+    padding: 0.6rem 1rem;
+    background: rgb(1, 83, 71, 0.2);
+    text-decoration: none;
+    font: inherit;
+    font-style: normal;
+    font-size: 16px;
+}
+
+/*----ASIDE/MAIN-----*/
+
+section {
+    display: flex;
+    /*flex-wrap: wrap; permet de garder les filtres a geuche et les pratiqeus à doite*/
+    padding: 2vh;
+    gap: 3.2rem;
+}
+
+.aside {
     float:left;
-    display:flex;
-    flex-direction:column;
-    background-color:#ffe26a ;
-
-}
-
-.form-filtre{
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
-li{
-    list-style-type: none;
+ul{
+    list-style-type:none;
     margin:0;
     padding:0;
 }
 
-#cases-colonne-gauche{
-    margin:0;
-    padding:0;
-}
-#cases-colonne-gauche>li{
-    border-top: solid;
-    border-color: #498074;
-}
-
-
-#premier-cases-colonne-gauche{
-    border-top: none;
-}
-
-.type-filtre-choix{
-    margin:0;
-    padding:0;
-}
-
-#titre-filtre{
-    align-self: center;
-    font-size: large;
-    font-weight: bold;
+#liste_filtres{
+    display: inline-block;
 }
 
 .hidden{
-    display:none
+    display: none;
 }
+

@@ -8,7 +8,7 @@ header {
     display: flex;
     align-items: center;
     padding: 2vh 2vh;
-    border-bottom:1px solid rgb(1, 83, 71, 0.2);
+    border-bottom: 1px solid rgb(1, 83, 71, 0.2);
     margin-bottom: 10vh;
 }
 
@@ -28,10 +28,13 @@ nav {
 }
 
 li {
-    /*padding-right: 20px;*/
     list-style-type: none;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
+}
+
+ul.header>li {
+    padding-right: 20px;
 }
 
 .Button {
@@ -53,28 +56,27 @@ li {
 
 section {
     display: flex;
-    /*flex-wrap: wrap; permet de garder les filtres a geuche et les pratiqeus à doite*/
+    flex-wrap: wrap;
     padding: 2vh;
     gap: 3.2rem;
 }
 
 .aside {
-    float:left;
+    float: left;
     display: flex;
     flex-direction: column;
 }
 
-ul{
-    list-style-type:none;
-    margin:0;
-    padding:0;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-#liste_filtres{
+#liste_filtres {
     display: inline-block;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
-

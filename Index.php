@@ -17,55 +17,52 @@
   <?php require 'header.php';  ?>
 
   <!-- PARTIE GAUCHE -->
-  <section>
-    <article class="aside">
+  <section class="main">
+    <form class="aside">
       <h2>Sélection filtre</h2>
       <ul id="liste_filtres">
         <li>
-          <input type="checkbox" name="type[]" id="spec" value="spec">
+          <input type="checkbox" name="type[]" id="spec" value="spec" onclick="gestionFiltre('SPECIFICATIONS')">
           <label for="spec">Specifications</label>
         </li>
         <li>
-          <input type="checkbox" name="type[]" id="strat" value="strat">
+          <input type="checkbox" name="type[]" id="strat" value="strat" onclick="gestionFiltre('STRATEGIE')">
           <label for="strat">Strategie</label>
         </li>
         <li>
-          <input type="checkbox" name="type[]" id="ux" value="ux">
+          <input type="checkbox" name="type[]" id="ux" value="ux" onclick="gestionFiltre('UX/UI')">
           <label for="ux">UX/UI</label>
         </li>
         <li>
-          <input type="checkbox" name="type[]" id="cont" value="cont">
+          <input type="checkbox" name="type[]" id="cont" value="cont" onclick="gestionFiltre('CONTENUS')">
           <label for="cont">Contenus</label>
         </li>
         <li>
-          <input type="checkbox" name="type[]" id="archi" value="archi">
+          <input type="checkbox" name="type[]" id="archi" value="archi" onclick="gestionFiltre('ARCHITECTURE')">
           <label for="archi">Architecture</label>
         </li>
         <li>
-          <input type="checkbox" name="type[]" id="archi" value="archi">
-          <label for="archi">Architecture</label>
-        </li>
-        <li>
-          <input type="checkbox" name="type[]" id="front" value="front">
+          <input type="checkbox" name="type[]" id="front" value="front" onclick="gestionFiltre('FRONTEND')">
           <label for="front">Frontend</label>
         </li>
         <li>
-          <input type="checkbox" name="type[]" id="back" value="back">
+          <input type="checkbox" name="type[]" id="back" value="back" onclick="gestionFiltre('BACKEND')">
           <label for="back">Backend</label>
         </li>
         <li>
-          <input type="checkbox" name="type[]" id="heb" value="heb">
+          <input type="checkbox" name="type[]" id="heb" value="heb" onclick="gestionFiltre('HEBERGEMENT')">
           <label for="heb">Hébergement</label>
         </li>
       </ul>
-    </article>
-    <article class="main">
+    </form>
+    <ul class="main" id="ulp">
       <!--ECRIRE ICI bonnes pratiques-->
       <h2>Sélectionnez vos bonnes pratiques</h2>
-    </article>
+
+    </ul>
+    
   </section>
-
-
+  <script src="main.js"></script>
 </body>
 
-</html>
+</html

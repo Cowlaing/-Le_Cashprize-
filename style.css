@@ -8,9 +8,10 @@ header {
     display: flex;
     align-items: center;
     padding: 2vh 2vh;
-    border-bottom:1px solid rgb(1, 83, 71, 0.2);
+    border-bottom: 1px solid rgb(1, 83, 71, 0.2);
     margin-bottom: 10vh;
 }
+
 
 header h2 {
     font-size: 1rem;
@@ -27,6 +28,12 @@ nav {
 }
 
 li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.header>li {
     padding-right: 20px;
 }
 
@@ -54,7 +61,22 @@ section {
     gap: 3.2rem;
 }
 
-
 .aside {
-    
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#liste_filtres {
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
 }

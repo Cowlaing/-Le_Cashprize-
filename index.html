@@ -26,31 +26,55 @@
       </li>
       <p id="cook"></p>
         <script>
-          function creerCookie(nomArticle,quantite){
-            //nom de l'article qu'on met dans le panier
-            panier.cookie = nomArticle;
-        }
-        function lireCookie(nomArticle){
-            //Récupération nom de l'article sélectionné 
-            var nomArticle = nom;
-            //Création tableau avec tous les articles
-            var listeArticles = panier.cookie.split(';');  
-            for(var i = 0; i<listeArticles.length; i++){
-              var article = listeArticles[i];
-              if(article.indexOf(nomArticle) == 0){
-                return article.substring(nomArticle,quantite);
+          function fnSetCookie(sName, sMode)
+    {
+      document.cookie=""+sName+"="+sMode + "; expires=30/06/2011;";
+    }
+  
+    function fnGetCookie(sName)
+    {
+      // Function used to return value of cookie matching supplied parameter
+      var sResult = document.cookie.match ( '(^|;) ?' + sName + '=([^;]*)(;|$)' );
 
-              }
-            }
+      if(sResult)
+        return (unescape(sResult[2]));
+      else
+        return null;
+    }
+    
+    $(document).ready(function() {
+      // Get current value of "links" cookie
+      var sOption = fnGetCookie("links");
+      if(sOption === "hide")
+      {
+        // If the cookie is set to hide automatically hide content
+        // when page loads
+        $("#quicklinks").hide();
+        $("#btnHide").html("Show Quick Links");
+      }
+        
+      $("#btnHide").click(function() {
+        var sButton = $("#btnHide").html();
+        if(sButton === "Hide Quick Links")
+        {
+          $("#quicklinks").slideUp(750);
+          $("#btnHide").html("Show Quick Links");
+          fnSetCookie("links", "hide");
         }
-        function afficherPanier(){
-            var afficherArticle = pannier.getElementbyId('cook');
-            affiche.innerHTML = 'L article est :'   + lireCookie('Cookie1'); 
+        else
+        {
+          $("#quicklinks").slideDown(750);
+          $("#btnHide").html("Hide Quick Links");
+          fnSetCookie("links", "show");
         }
-        creerCookie(Ballon, 3);
-        lireCookie(Ballon);
-
+      })
+    });
+      fnSetCookie(ballon, 3);
+      fnGetCookie(ballon)
+  
         </script>
+
+
       <li id="pratique-deux" class ="pratique">
         <h3>Pratique n°2</h3>
         <p>Couper l'eau quand on se brosse les dents</p>

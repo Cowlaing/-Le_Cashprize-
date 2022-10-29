@@ -125,8 +125,14 @@ function gestionFiltre(type){
 //Partie gestion de panier
 
 
-//Le panier
-var panier = [];
+//Le panier en local storage, on ne le reset pas si non vide
+var panier =[]
+//Le panier ne contient que les ID des articles
+if (localStorage.getItem("panier") != null){
+    panier = Array.from(JSON.parse(localStorage.getItem("panier")));
+}
+
+
 //La focntion
 function ajouterPanier(id){
     //Récupère la liste des pratiques
@@ -143,17 +149,71 @@ function ajouterPanier(id){
     //On recupere la pratique (objet Json)
     let element = prat[index];
     let pratique = document.getElementById(id);
+    let elID = element['ID'];
     //Verfions si l'element n'est pas deja dans le panier
-    if(!pratique.classList.contains("dans-panier")){
+    if(!panier.includes(elID)){
         //Ajoute l'elemenet dans le panier
-        panier.push(element);
+        panier.push(elID);
         //Ajoute la classe "dans-panier"
         pratique.classList.add("dans-panier");
+        localStorage.setItem("panier",JSON.stringify(panier))
     }
     else{
         window.alert("Deja dans le panier");
     }
+    panier = Array.from(JSON.parse(localStorage.getItem("panier")));
     
+}
+
+//localStorage.clear();
+
+
+function afficheArticle(element){
+    //Recuperation de la table
+    var table = document.getElementById("corps-tableau-panier");
+    //Creation de la ligne
+    var newTr = document.createElement("tr");
+    //Creation des colonnes
+    var idTd =document.createElement("td");
+    var famTd = document.createElement("td");
+    var descTd = document.createElement("td");
+
+    //Ajout de classe, utile pour le css
+    idTd.id = element['ID'];
+    idTd.classList.add("id",element['famille']);
+    famTd.classList.add("famille",element['famille']);
+    descTd.classList.add("description",element['famille']);
+
+    //Remplissage des cases
+    idTd.textContent = element['ID'];
+    famTd.textContent = element['famille'];
+    descTd.textContent = element['description'];
+
+    //Ajout de Id -> Famille -> Ddescription dans la ligne
+    newTr.appendChild(idTd);
+    newTr.appendChild(famTd);
+    newTr.appendChild(descTd);
+
+    //Ajout de la ligne dans le tableau
+    table.appendChild(newTr);
+}
+
+function affichePanier(){
+    var panierSauv = Array.from(JSON.parse(localStorage.getItem("panier")));
+    var pratiques = request.response;
+    var prat = pratiques['pratiques'];
+    for(var i = 0; i<panierSauv.length;i++){
+        let index = 0;
+        for (var i =0;i< prat.length;i++){
+            if(prat[i]['ID'] == id){
+                index = i;
+                stop;
+            }
+        }
+    //On recupere la pratique (objet Json)
+        let element = prat[index];
+        afficheArticle(prat);
+    }
 }
 
 

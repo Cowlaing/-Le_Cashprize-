@@ -15,5 +15,6 @@
             </thead>
             <tbody id = "corps-tableau-panier"></tbody>
         </table>
+        <script src="gestionPanier.js"></script>
     </body>
 </html>

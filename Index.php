@@ -9,7 +9,8 @@
   <meta name="author" content="Le Cashprize D4G2021">
   <title>D4G2021 - Le Cashprize team</title>
   <link rel="shortcut icon" type="image/x-icon" href="images/planete2.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="print.css" media="print">
 </head>
 
 <body>
@@ -17,7 +18,7 @@
   <?php require 'header.php';  ?>
 
   <!-- PARTIE GAUCHE -->
-  <section class="main">
+  <section class="container">
     <form class="aside">
       <h2>Sélection filtre</h2>
       <ul id="liste_filtres">
@@ -54,15 +55,28 @@
           <label for="heb">Hébergement</label>
         </li>
       </ul>
+      <div>
+        <p>charte graphique</p>
+        <div class="graphique1">.</div>
+        <div class="graphique2">.</div>
+        <div class="graphique3">.</div>
+        <div class="graphique4">.</div>
+        <div class="graphique5">.</div>
+      </div>
     </form>
-    <ul class="main" id="ulp">
-      <!--ECRIRE ICI bonnes pratiques-->
-      <h2>Sélectionnez vos bonnes pratiques</h2>
 
-    </ul>
+    <article>
+      <ul class="main" id="ulp">
+        <!--ECRIRE ICI bonnes pratiques-->
+        <h2>Sélectionnez vos bonnes pratiques</h2>
+      </ul>
+      <p>text ...</p>
+      
+    </article>
     
+    <script src="main.js"></script>
   </section>
-  <script src="main.js"></script>
+  
 </body>
 
 </html

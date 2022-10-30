@@ -16,6 +16,7 @@ request.onload = function(){
 function affiche(jsonObj){
     //Creation des éléments
     let nouvLi = document.createElement('li');
+    // nouvLi.className="testLI"; AJOUTER classe à un élément
     let nouvArticle = document.createElement("article");
     let ul = document.getElementById("ulp");
     let fam = document.createElement("h3");

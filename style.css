@@ -137,11 +137,14 @@ input#search {
     width: 100%;
     font-size: 14px;
     border: 0;
-    box-shadow: inset 0 0 0 2px rgb(44,37,70, 0.4);
+    box-shadow: inset 0 0 0 2px rgb(124,93,186, 0.5);
     border-radius: 0.2rem;
     padding: 0.6rem;
     background: transparent;
     color: #2c2546;
+}
+input#search:hover {
+    box-shadow: inset 0 0 0 2px rgb(240,173,38,0.5);
 }
 
 .titre {

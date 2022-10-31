@@ -46,7 +46,7 @@ function afficheArticle(element){
     //Ajout de la ligne dans le tableau
     table.appendChild(newTr);
 }
-
+//pour afficher
 function affichePanier(){
     var panierSauv = Array.from(JSON.parse(localStorage.getItem("panier")));
     var pratiques = request.response;

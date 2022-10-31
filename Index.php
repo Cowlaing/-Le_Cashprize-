@@ -28,6 +28,14 @@
           <input type="text" id="search">
         </fieldset>
         <fieldset>
+          <legend>Incontournables</legend>
+          <ul id="liste_filtres">
+            <li>
+              <input type="checkbox" name="type[]" id="incontourables" value="incontourables" onclick="">
+              <label for="incontourables">Liste des critères incontournables</label>
+            </li>
+        </fieldset>
+        <fieldset>
           <legend>Famille</legend>
           <ul id="liste_filtres">
             <li>
@@ -165,14 +173,14 @@
       </form>
 
       <article>
-      <h2 class="titre">"compteur" critères</h2>
-      <p class="titre">Sélectionnez les bonnes pratiques que vous souhaitez ajouter à votre projet parmis les 484 critères du référentiel INR.</p>
+        <h2 class="titre">"compteur" critères</h2>
+        <p class="titre">Sélectionnez les bonnes pratiques que vous souhaitez ajouter à votre projet parmis les 484 critères du référentiel INR.</p>
 
         <ul class="main" id="ulp">
           <!--ECRIRE ICI bonnes pratiques-->
-          
+
         </ul>
-        
+
       </article>
 
       <script src="main.js"></script>

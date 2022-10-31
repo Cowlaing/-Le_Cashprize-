@@ -20,7 +20,7 @@
   <!-- PARTIE GAUCHE -->
   <section class="container">
     <div class="columns">
-      <form class="aside">
+      <form class="aside" data-screen-only>
         <h2 class="titre">Recherche</h2>
 
         <fieldset>

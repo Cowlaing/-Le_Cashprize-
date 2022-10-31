@@ -1,4 +1,7 @@
-
+//test impression
+function imprimer_page(){
+    window.print();
+}
 
 var requestURL = "pratiques.json";
 var request = new XMLHttpRequest();

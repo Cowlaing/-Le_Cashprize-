@@ -95,14 +95,14 @@ footer {
     margin-top: 10vh;
 }
 
-footer article {
+footer form {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 2rem 0;
 }
 
-footer article div {
+footer form div {
     justify-content: space-between;
 }
 /*----ASIDE/MAIN-----*/
@@ -120,14 +120,32 @@ footer article div {
 .columns {
     display: flex;
     flex-wrap: wrap;
-    padding: 2vh;
-    gap: 3.2rem;
+    gap: 4rem;
 }
 
 .aside {
     float: left;
+    position: relative;
     display: flex;
     flex-direction: column;
+}
+
+.titre {
+    margin-bottom: 3.2rem;
+}
+
+p.titre {
+    font-style: italic;
+}
+
+fieldset {
+    margin: 0 0 1.6rem 0;
+    border: none;
+    padding: 0;
+}
+
+legend {
+    line-height: 3.2rem;
 }
 
 ul {

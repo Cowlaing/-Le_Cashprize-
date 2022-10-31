@@ -1,4 +1,4 @@
-<header>
+<header data-screen-only>
     <section class="container">
         <article>
             <h2>DESIGN4GREEN - LE CASHPRIZE</h2>

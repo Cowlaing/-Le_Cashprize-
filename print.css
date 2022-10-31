@@ -1,0 +1,25 @@
+* {
+	background: none !important;
+	color: black !important;
+}
+
+@page { margin: 10% }
+
+html {
+	font-size: 10pt;
+}
+
+h5 {
+	font-weight: normal;
+}
+
+.container {
+	max-width: 100%;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+[data-screen-only] { /*hide elements for the screen*/
+	display: none !important;
+}

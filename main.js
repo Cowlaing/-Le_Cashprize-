@@ -22,7 +22,7 @@ function affiche(jsonObj){
     // nouvLi.className="testLI"; AJOUTER classe à un élément
     let nouvArticle = document.createElement("article");
     let ul = document.getElementById("ulp");
-    let fam = document.createElement("h3");
+    let fam = document.createElement("h5");
     let reco = document.createElement("p");
     let input = document.createElement("input");
     //Ajout de la classe et de l'id

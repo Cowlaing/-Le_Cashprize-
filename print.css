@@ -6,18 +6,23 @@
 @page { margin: 10% }
 
 html {
-	font-size: 10pt;
+	font-size: 12pt;
 }
 
-h5 {
-	font-weight: normal;
+
+li {
+    list-style-type: none;
+}
+.titre {
+    margin-bottom: 3.2rem;
+}
+p.titre {
+    font-style: italic;
 }
 
-.container {
-	max-width: 100%;
-	width: 100%;
-	padding-left: 0;
-	padding-right: 0;
+ul {
+	margin: 0;
+	padding: 0;
 }
 
 [data-screen-only] { /*hide elements for the screen*/

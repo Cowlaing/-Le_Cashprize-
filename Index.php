@@ -24,6 +24,10 @@
         <h2 class="titre">Recherche</h2>
 
         <fieldset>
+          <legend>Recherchez par nom</legend>
+          <input type="text" id="search">
+        </fieldset>
+        <fieldset>
           <legend>Famille</legend>
           <ul id="liste_filtres">
             <li>

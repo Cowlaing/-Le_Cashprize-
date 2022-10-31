@@ -31,6 +31,7 @@ function affiche(jsonObj){
     //Creation des textes des éléments
     fam.textContent = jsonObj['famille'];
     reco.textContent = jsonObj['recommandation'];
+
     //Class bouton-ajouter et texte ajouter pour le bouton
     
     //Ajout des éléments dans la document
@@ -125,6 +126,19 @@ function gestionFiltre(type){
         afficheToutType();
     }
 }
+
+
+//Partie RECHERCHE
+const searchInput = document.querySelector("#search") //ici ID search
+const searchResult = document.querySelector(".main")
+
+let dataArray;
+async function getPratiques(){
+    const res = pratiques //base de données = pratiques
+
+}
+
+
 
 //Partie gestion de panier
 

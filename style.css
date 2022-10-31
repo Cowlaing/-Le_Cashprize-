@@ -32,19 +32,25 @@ body {
 
 /*---HEADER----*/
 header {
-    display: flex;
+    /*display: flex;
     align-items: center;
-    padding: 2vh 2vh;
-    border-bottom: 1px solid rgb(1, 83, 71, 0.2);
+    padding: 2vh 2vh;*/
+    border-bottom: 1px solid rgb(44,37,70, 0.4);
     margin-bottom: 10vh;
 }
-
 
 header h2 {
     font-size: 1rem;
 }
 
-nav {
+header article {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1rem 0;
+}
+
+header nav {
     padding-left: 5vh;
 }
 
@@ -54,7 +60,7 @@ nav {
     padding: 0;
 }
 
-li {
+li { /*pour tout le fichier*/
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -83,17 +89,35 @@ ul.header>li {
     background: rgb(240,173,38,0.5);
 }
 
+/*---FOOTER----*/
+footer {
+    border-top: 1px solid rgb(44,37,70, 0.4);
+    margin-top: 10vh;
+}
+
+footer article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+footer article div {
+    justify-content: space-between;
+}
 /*----ASIDE/MAIN-----*/
 
 .container {
+    max-width: 150ch;
     margin: 0 auto;
+    padding: 0 1.6rem 0 1.6rem;
 }
 
 /*.testLI {
     background-color: red;
 }*/
 
-section {
+.columns {
     display: flex;
     flex-wrap: wrap;
     padding: 2vh;

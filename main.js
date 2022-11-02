@@ -1,18 +1,16 @@
-//test impression
-function imprimer_page(){
-    window.print();
-}
 
-var requestURL = "pratiques.json";
+
+var requestURL = "pratiquesFROMexcel.json";
 var request = new XMLHttpRequest();
 
 request.open('GET',requestURL);
 request.responseType ='json';
 request.send();
-var pratiques = request.response;
 
-request.onload = function(){
+
+request.onload = function(){ //CHARGE LES PRATIQUES ICI
     var pratiques = request.response;
+    //console.log(pratiques.listePratiques.length); //affiche dans la console la longueur
     afficheTout(pratiques);
 }
 
@@ -22,7 +20,7 @@ function affiche(jsonObj){
     // nouvLi.className="testLI"; AJOUTER classe à un élément
     let nouvArticle = document.createElement("article");
     let ul = document.getElementById("ulp");
-    let fam = document.createElement("h5");
+    let fam = document.createElement("h3");
     let reco = document.createElement("p");
     let input = document.createElement("input");
     //Ajout de la classe et de l'id
@@ -30,8 +28,7 @@ function affiche(jsonObj){
     nouvLi.setAttribute("id",jsonObj['ID']);
     //Creation des textes des éléments
     fam.textContent = jsonObj['famille'];
-    reco.textContent = jsonObj['recommandation'];
-
+    reco.textContent = jsonObj['criteres'];
     //Class bouton-ajouter et texte ajouter pour le bouton
     
     //Ajout des éléments dans la document
@@ -52,7 +49,7 @@ function affiche(jsonObj){
 }
 
 function afficheTout(jsonObj){
-    var prat = jsonObj['pratiques'];
+    var prat = jsonObj['listePratiques'];
     for (var i =0; i<prat.length;i++){
         affiche(prat[i]);
     }
@@ -126,19 +123,6 @@ function gestionFiltre(type){
         afficheToutType();
     }
 }
-
-
-//Partie RECHERCHE
-const searchInput = document.querySelector("#search") //ici ID search
-const searchResult = document.querySelector(".main")
-
-let dataArray;
-async function getPratiques(){
-    const res = pratiques //base de données = pratiques
-
-}
-
-
 
 //Partie gestion de panier
 

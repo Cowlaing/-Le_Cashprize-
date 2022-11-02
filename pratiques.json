@@ -1,5 +1,5 @@
 {
-    "pratiques":[
+    "listePratiques":[
         {
             "ID":"STR-1",
             "famille":"STRATEGIE",
@@ -39,6 +39,11 @@
             "ID":"HEB-1",
             "famille":"HEBERGEMENT",
             "recommandation":"Réduire l'impact de l'hébergement"
+        },
+        {
+            "ID":"HEB-2",
+            "famille":"HEBERGEMENT",
+            "recommandation":"BIBIBIB humaines projets pour permettre la prise en compte de la démarche NR"
         }
         
     ]

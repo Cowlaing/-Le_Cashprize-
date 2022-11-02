@@ -21,8 +21,8 @@
   <section class="container">
     <div class="columns">
       <div class="aside">
-        <div class="aside-sticky">
-
+        <div class="aside-sticky"> <!--PROBLEME : voit pas la partie du bas des filtres !!!!
+      https://css-tricks.com/a-dynamically-sized-sticky-sidebar-with-html-and-css/ -->
           <form data-screen-only>
             <h2 class="titre">Recherche</h2>
 
@@ -35,7 +35,7 @@
               <ul id="liste_filtres">
                 <li>
                   <input type="checkbox" name="type[]" id="incontourables" value="incontourables" onclick="">
-                  <label for="incontourables">Liste des critères incontournables</label>
+                  <label for="incontourables">Critères incontournables</label>
                 </li>
             </fieldset>
             <fieldset>

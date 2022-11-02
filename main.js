@@ -1,4 +1,7 @@
-
+//test impression
+function imprimer_page(){
+    window.print();
+}
 
 var requestURL = "pratiquesFROMexcel.json";
 var request = new XMLHttpRequest();
@@ -123,6 +126,19 @@ function gestionFiltre(type){
         afficheToutType();
     }
 }
+
+//Partie RECHERCHE
+/*
+const searchInput = document.querySelector("#search") //ici ID search
+const searchResult = document.querySelector(".main")
+
+let dataArray;
+async function getPratiques(){
+    const res = pratiques //base de données = pratiques
+
+}
+*/
+
 
 //Partie gestion de panier
 

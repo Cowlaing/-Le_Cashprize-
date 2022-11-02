@@ -10,7 +10,7 @@ request.send();
 
 request.onload = function(){ //CHARGE LES PRATIQUES ICI
     var pratiques = request.response;
-    //console.log(pratiques.listePratiques.length); //affiche dans la console la longueur
+    console.log(pratiques.listePratiques.length); //affiche dans la console la longueur
     afficheTout(pratiques);
 }
 

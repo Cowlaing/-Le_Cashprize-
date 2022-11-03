@@ -5257,20 +5257,6 @@
     },
     {
       "famille": "HEBERGEMENT",
-      "ID": "HEB-1.02",
-      "planet": "A",
-      "people": "C",
-      "prosperity": "C",
-      "criteres": "Les déchets issus du datacenter sont-ils valorisés ou recyclés ?",
-      "cycleVie": "Utilisation",
-      "type": "RECO",
-      "miseEnOeuvre": "*",
-      "incontournable": "INCONTOURNABLE",
-      "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
-      "yIndicateurs": 100
-    },
-    {
-      "famille": "HEBERGEMENT",
       "ID": "HEB-1.C04",
       "planet": "B",
       "people": "C",
@@ -5350,20 +5336,6 @@
       "type": "RECO",
       "miseEnOeuvre": "*",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
-      "yIndicateurs": 100
-    },
-    {
-      "famille": "HEBERGEMENT",
-      "ID": "HEB-1.06",
-      "planet": "A",
-      "people": "C",
-      "prosperity": "C",
-      "criteres": "Est-ce que le PUE (Power Usage Effectivness) est disponible ?",
-      "cycleVie": "Administration",
-      "type": "RECO",
-      "miseEnOeuvre": "*",
-      "incontournable": "INCONTOURNABLE",
-      "xIndicateurs": "PUE <= 1,2 = 100 ; PUE 1,2-1,4 = 75; PUE 14-1,6 = 50 ; PUE 1,6-1,8 = 25 ; PUE > 1,8 = 0",
       "yIndicateurs": 100
     },
     {
@@ -5480,20 +5452,6 @@
       "type": "RECO",
       "miseEnOeuvre": "**",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
-      "yIndicateurs": 100
-    },
-    {
-      "famille": "HEBERGEMENT",
-      "ID": "HEB-3.02",
-      "planet": "A",
-      "people": "C",
-      "prosperity": "B",
-      "criteres": "La taille du parc physique est-il en adéquation avec le volume de machines virtuelles à exécuter ?",
-      "cycleVie": "Déploiement",
-      "type": "RECO",
-      "miseEnOeuvre": "*",
-      "incontournable": "INCONTOURNABLE",
-      "xIndicateurs": "Taux utisation VM > 60 = 100 ; 60-40 = 50 ; < 40 = 0",
       "yIndicateurs": 100
     },
     {
@@ -5635,20 +5593,6 @@
     },
     {
       "famille": "HEBERGEMENT",
-      "ID": "HEB-4.02",
-      "planet": "B",
-      "people": "B",
-      "prosperity": "B",
-      "criteres": "Les serveurs et les équipements techniques sont-ils certifiés ?",
-      "cycleVie": "Acquisition",
-      "type": "RECO",
-      "miseEnOeuvre": "*",
-      "incontournable": "INCONTOURNABLE",
-      "xIndicateurs": "Oui = 100 ; Partiel = 50 ; Non = 0",
-      "yIndicateurs": 100
-    },
-    {
-      "famille": "HEBERGEMENT",
       "ID": "HEB-4.03",
       "planet": "B",
       "people": "B",
@@ -5697,20 +5641,6 @@
     },
     {
       "famille": "HEBERGEMENT",
-      "ID": "HEB-4.06",
-      "planet": "B",
-      "people": "B",
-      "prosperity": "B",
-      "criteres": "Le fournisseur expose-t-il tous ses indicateurs ?",
-      "cycleVie": "Administration",
-      "type": "RECO",
-      "miseEnOeuvre": "*",
-      "incontournable": "INCONTOURNABLE",
-      "xIndicateurs": "Oui = 100 ; Partiel = 50 ; Non = 0",
-      "yIndicateurs": 100
-    },
-    {
-      "famille": "HEBERGEMENT",
       "ID": "HEB-4.C02",
       "planet": "A",
       "people": "B",
@@ -5730,20 +5660,6 @@
       "cycleVie": "Maintenance",
       "type": "RECO",
       "miseEnOeuvre": "*",
-      "xIndicateurs": "Oui = 100 ; Partiel = 50 ; Non = 0",
-      "yIndicateurs": 100
-    },
-    {
-      "famille": "HEBERGEMENT",
-      "ID": "HEB-4.08",
-      "planet": "A",
-      "people": "B",
-      "prosperity": "B",
-      "criteres": "Les équipements en fin de vie sont-ils revalorisés ( vente / don / recyclage ... ) ?",
-      "cycleVie": "type",
-      "type": "RECO",
-      "miseEnOeuvre": "*",
-      "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Oui = 100 ; Partiel = 50 ; Non = 0",
       "yIndicateurs": 100
     },

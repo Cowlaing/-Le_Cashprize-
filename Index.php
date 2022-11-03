@@ -22,7 +22,8 @@
     <div class="columns">
       <div class="aside">
         <div class="aside-sticky"> <!--PROBLEME : voit pas la partie du bas des filtres !!!!
-      https://css-tricks.com/a-dynamically-sized-sticky-sidebar-with-html-and-css/ -->
+      https://css-tricks.com/a-dynamically-sized-sticky-sidebar-with-html-and-css/ 
+    sticky sidebar scrollable-->
           <form data-screen-only>
             <h2 class="titre">Recherche</h2>
 

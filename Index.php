@@ -21,10 +21,8 @@
   <section class="container">
     <div class="columns">
       <div class="aside">
-        <div class="aside-sticky"> <!--PROBLEME : voit pas la partie du bas des filtres !!!!
-      https://css-tricks.com/a-dynamically-sized-sticky-sidebar-with-html-and-css/ 
-    sticky sidebar scrollable-->
-          <form data-screen-only>
+        <div class="component">
+          <form class="content" data-screen-only>
             <h2 class="titre">Recherche</h2>
 
             <fieldset>
@@ -175,11 +173,12 @@
               <div class="graphique5">.</div>
             </div>
           </form>
+ 
         </div>
       </div>
       <article class="main">
         <h2 class="titre">"compteur" critères</h2>
-        <p class="titre">Sélectionnez les bonnes pratiques que vous souhaitez ajouter à votre projet parmis les 484 critères du référentiel INR.</p>
+        <p class="titre">Sélectionnez les bonnes pratiques que vous souhaitez ajouter à votre projet parmis les 491 critères du référentiel INR.</p>
 
         <ul id="ulp">
           <!--ECRIRE ICI bonnes pratiques-->

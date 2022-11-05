@@ -280,8 +280,66 @@ h3 {
     font-size: 1rem;
     margin: 0;
 }
+
 h4 {
     font-size: 2rem;
     margin: 0;
-    text-decoration: underline;
+    text-decoration-line: overline underline;
+    text-decoration-color: #7c5dba;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 10%;
+
+}
+
+menu {
+    font-size: 1rem;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    color: var(--text);
+    font-size: var(--font-size);
+    line-height: var(--font-size);
+    zoom: 1.5;
+    text-align: center;
+
+}
+
+.traith1 {
+    border-style: dashed;
+    border-right: 6px solid #bebdc0;
+    border-left: 6px solid #7c5dba;
+    border-top: 10px solid #2c2546;
+    height: auto;
+    display: inline-block;
+
+
+}
+
+
+ol {
+
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    padding-left: 0;
+}
+.style
+{
+    border-style: initial;
+    border-bottom: 3px solid #7c5dba;
+    border-top: 4px solid #2c2546;
+    height: auto;
+    display: inline-block;
+    margin-left: 50px;
+
+}
+.container
+{
+    position: sticky;
 }

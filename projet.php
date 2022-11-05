@@ -17,39 +17,41 @@
     <!--Header PHP-->
     <?php include 'header.php';  ?>
 
+
+
+
     <!-- PARTIE GAUCHE -->
     <section class="container">
         <div class="columns">
             <div class="aside">
                 <div class="component">
                     <form class="content" data-screen-only>
-                        <h2 class="titre">Trier</h2>
-                        <fieldset>
-                            <legend>Famille</legend>
+                        <h4 class="titre">Trier</h4>
+                        <fieldset class="style">
                             <ol id="categories" class="test">
                                 <li>
-                                    <a href="#0">Strategie</a>
+                                    <menu href="#0">Strategie</menu>
                                 </li>
                                 <li>
-                                    <a href="#1">Specifications</a>
+                                    <menu href="#1">Specifications</menu>
                                 </li>
                                 <li>
-                                    <a href="#2">UX/UI</a>
+                                    <menu href="#2">UX/UI</menu>
                                 </li>
                                 <li>
-                                    <a href="#3">Contenus</a>
+                                    <menu href="#3">Contenus</menu>
                                 </li>
                                 <li>
-                                    <a href="#4">Architecture</a>
+                                    <menu href="#4">Architecture</menu>
                                 </li>
                                 <li>
-                                    <a href="#4">Frontend</a>
+                                    <menu href="#4">Frontend</menu>
                                 </li>
                                 <li>
-                                    <a href="#4">Backend</a>
+                                    <menu href="#4">Backend</menu>
                                 </li>
                                 <li>
-                                    <a href="#4">Hébergement</a>
+                                    <menu href="#4">Hébergement</menu>
                                 </li>
                             </ol>
 
@@ -60,12 +62,16 @@
 
                 </div>
             </div>
+            <div class="traith1"></div>
+    
+
+
             <article class="main">
-                <h2 class="titre">Les pratiques séléctionnées</h2>
+                <h4 class="titre">Les pratiques séléctionnées</h4>
                 <p class="titre">Sélectionnez les bonnes pratiques que vous souhaitez ajouter à votre projet parmis les 491 critères du référentiel INR.</p>
 
                 <!--Liste des catégories de pratiques-->
-                <h4 id="0">Strategie</h4>
+                <h2 id="0">Strategie</h2>
                 <ul class="strategie">
                     <li class="Item">
                         <a name="type[]" id="#1" value="front" onload="gestionFiltre('UX/UI')">test
@@ -76,13 +82,13 @@
 
                 </ul>
                 </ul>
-                <h4 id="1">Specifications</h4>
-                <h4 id="2">UX/UI</h4>
-                <h4 id="3">Contenus</h4>
-                <h4 id="4">Architecture</h4>
-                <h4 id="5">Frontend</h4>
-                <h4 id="6">Backend</h4>
-                <h4 id="7">Hébergement</h4>
+                <h2 id="1">Specifications</h2>
+                <h2 id="2">UX/UI</h2>
+                <h2 id="3">Contenus</h2>
+                <h2 id="4">Architecture</h2>
+                <h2 id="5">Frontend</h2>
+                <h2 id="6">Backend</h2>
+                <h2 id="7">Hébergement</h2>
 
 
 

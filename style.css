@@ -76,8 +76,17 @@ body {
     margin: 0;
 }
 
-h1,
-h2,
+h1
+{
+    font-weight: lighter;
+    padding-left: 10px;
+}
+h2
+{
+    text-decoration-line: overline underline;
+    text-decoration-color: #8b8a8b;
+    
+}
 h3,
 h4,
 h5,
@@ -246,7 +255,7 @@ ul {
     gap: 1.6rem;
 }
 
-.bouton-ajouter {
+.bouton-ajouter, .bouton-supprimer {
     margin: auto 0;
     /*centrer bouton*/
     display: block;
@@ -259,14 +268,15 @@ ul {
     cursor: pointer;
 }
 
-.bouton-ajouter:hover {
+.bouton-ajouter:hover, .bouton-supprimer:hover {
     background: rgb(240, 173, 38, 0.5);
 }
 
 span {
-    font-size: 14px;
+    font-size: 18px;
     font-variant: small-caps;
     text-transform: lowercase;
+    font-weight: bolder;
 }
 
 .attributs {
@@ -274,6 +284,7 @@ span {
     background: rgb(44, 37, 70, 0.2);
     border-radius: 0.2rem;
     padding: 0 0.2rem;
+
 }
 
 h3 {
@@ -282,13 +293,13 @@ h3 {
 }
 
 h4 {
-    font-size: 2rem;
+    font-size: 35px;
     margin: 0;
     text-decoration-line: overline underline;
     text-decoration-color: #7c5dba;
     font-weight: bold;
     text-align: center;
-    padding-left: 10%;
+
 
 }
 
@@ -305,12 +316,40 @@ menu {
     text-align: center;
 
 }
+.menu {
+    font-size: 2rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0;
+    color: var(--text);
+    font-size: var(--font-size);
+    line-height: var(--font-size);
+    zoom: 1.5;
+    text-align: center;
+    margin: auto 0;
+    /*centrer bouton*/
+    color: black;
+    border: 0;
+    border-radius: 50px;
+    padding: 0.3rem 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration:none; 
+    
+    
+}
 
+.menu:hover {
+    background: rgb(124, 93, 186, 0.5);
+}
 .traith1 {
     border-style: dashed;
     border-right: 6px solid #bebdc0;
     border-left: 6px solid #7c5dba;
     border-top: 10px solid #2c2546;
+    border-bottom: 10px solid #2c2546;
     height: auto;
     display: inline-block;
 
@@ -341,5 +380,32 @@ ol {
 }
 .container
 {
-    position: sticky;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+article
+{
+    height: auto;
+}
+.Nom_recommandation
+{
+    list-style-type: circle;
+    background-size: 1.6rem 1.6rem;
+
+}
+
+div.mainListeItem
+{
+    padding-left: 7%;
+    padding-bottom: 20px;
+}
+hr
+{
+    border: none;
+    border-top: 2px solid #7c5dba;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 30%;
 }

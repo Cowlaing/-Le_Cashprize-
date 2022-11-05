@@ -233,7 +233,7 @@ function ajouterPanier(id){
 }
 function affiche_panier(jsonObj){
     //Creation des éléments
-    let ul = document.getElementById("ulp2"); //disposer tous les éléments dans l'élément avec id "ulp"
+    let ul = document.getElementById("ulp"); //disposer tous les éléments dans l'élément avec id "ulp"
     let nouvLi = document.createElement('li'); 
     let nouvArticle = document.createElement("article");
     let divMain = document.createElement("div"); //space-beetween

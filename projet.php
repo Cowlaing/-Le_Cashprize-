@@ -30,28 +30,31 @@
                         <fieldset class="style">
                             <ol id="categories" class="test">
                                 <li>
-                                    <menu href="#0">Strategie</menu>
+                                    <a href="#0" input type="button" value="Acquisition" class="menu">Acquisition</a>
                                 </li>
                                 <li>
-                                    <menu href="#1">Specifications</menu>
+                                    <a href="#1" input type="button" value="Conception" class="menu">Conception</a>
                                 </li>
                                 <li>
-                                    <menu href="#2">UX/UI</menu>
+                                    <a href="#2" input type="button" value="Réalisation" class="menu">Réalisation</a>
                                 </li>
                                 <li>
-                                    <menu href="#3">Contenus</menu>
+                                    <a href="#3" input type="button" value="Déploiement" class="menu">Déploiement</a>
                                 </li>
                                 <li>
-                                    <menu href="#4">Architecture</menu>
+                                    <a href="#4" input type="button" value="Administration" class="menu">Administration</a>
                                 </li>
                                 <li>
-                                    <menu href="#4">Frontend</menu>
+                                    <a href="#5" input type="button" value="Utilisation" class="menu">Utilisation</a>
                                 </li>
                                 <li>
-                                    <menu href="#4">Backend</menu>
+                                    <a href="#6" input type="button" value="Fin de Vie" class="menu">Fin de Vie</a>
                                 </li>
                                 <li>
-                                    <menu href="#4">Hébergement</menu>
+                                    <a href="#7" input type="button" value="Revalorisation" class="menu">Revalorisation</a>
+                                </li>
+                                <li>
+                                    <a href="#8" input type="button" value="N/A" class="menu">N/A</a>
                                 </li>
                             </ol>
 
@@ -63,39 +66,99 @@
                 </div>
             </div>
             <div class="traith1"></div>
-    
+
 
 
             <article class="main">
                 <h4 class="titre">Les pratiques séléctionnées</h4>
-                <p class="titre">Sélectionnez les bonnes pratiques que vous souhaitez ajouter à votre projet parmis les 491 critères du référentiel INR.</p>
+                <p class="titre">Voici la liste des bonnes pratiques que vous avez rentré dans votre panier.</p>
 
                 <!--Liste des catégories de pratiques-->
-                <h2 id="0">Strategie</h2>
+                <h2 id="0">Acquisition</h2>
+                <h1>(2 pratiques)</h1>
                 <ul class="strategie">
-                    <li class="Item">
-                        <a name="type[]" id="#1" value="front" onload="gestionFiltre('UX/UI')">test
-                    </a>
+                    <li class="Nom_recommandation" id="id_recommandation">
+                        <article>
+                            <div class="mainListeItem">
+                                <div>
+                                    <span>RECOMMANDATION STRATEGIE<span>
+                                            <span class="attributs">people-A</span>
+                                            <span class="attributs">planet-A</span>
+                                            <span class="attributs">prosperity-B</span>
+                                            <span class="attributs">FACILE</span></span>
+                                    </span>
+                                    <h3>Les réunions sont-elles limitées au strict minimum, en privilégiant le distanciel, lorsque les réunions nécessitent des déplacements physiques ?
+                                    </h3>
+                                </div>
+                                <input type="button" value="Supprimer" class="bouton-supprimer">
+                            </div>
+                        </article>
                     </li>
-                    <ul id="ulp">
-                    <!--ECRIRE ICI bonnes pratiques-->
-
+                    <hr>
+                    <li class="Nom_recommandation" id="id_recommandation">
+                        <article>
+                            <div class="mainListeItem">
+                                <div>
+                                    <span>RECOMMANDATION STRATEGIE<span>
+                                            <span class="attributs">people-A</span>
+                                            <span class="attributs">planet-A</span>
+                                            <span class="attributs">prosperity-B</span>
+                                            <span class="attributs">FACILE</span></span>
+                                    </span>
+                                    <h3>Les réunions sont-elles limitées au strict minimum, en privilégiant le distanciel, lorsque les réunions nécessitent des déplacements physiques ?
+                                    </h3>
+                                </div>
+                                <input type="button" value="Supprimer" class="bouton-supprimer">
+                            </div>
+                        </article>
+                    </li>
                 </ul>
+                <h2 id="1">Conception</h2>
+                <h1>(2 pratiques)</h1>
+                <ul class="strategie">
+                    <li class="Nom_recommandation" id="id_recommandation">
+                        <article>
+                            <div class="mainListeItem">
+                                <div>
+                                    <span>RECOMMANDATION STRATEGIE<span>
+                                            <span class="attributs">people-A</span>
+                                            <span class="attributs">planet-A</span>
+                                            <span class="attributs">prosperity-B</span>
+                                            <span class="attributs">FACILE</span></span>
+                                    </span>
+                                    <h3>Les réunions sont-elles limitées au strict minimum, en privilégiant le distanciel, lorsque les réunions nécessitent des déplacements physiques ?
+                                    </h3>
+                                </div>
+                                <input type="button" value="Supprimer" class="bouton-supprimer">
+                            </div>
+                        </article>
+                    </li>
+                    <hr>
+                    <li class="Nom_recommandation" id="id_recommandation">
+                        <article>
+                            <div class="mainListeItem">
+                                <div>
+                                    <span>RECOMMANDATION STRATEGIE<span>
+                                            <span class="attributs">people-A</span>
+                                            <span class="attributs">planet-A</span>
+                                            <span class="attributs">prosperity-B</span>
+                                            <span class="attributs">FACILE</span></span>
+                                    </span>
+                                    <h3>Les réunions sont-elles limitées au strict minimum, en privilégiant le distanciel, lorsque les réunions nécessitent des déplacements physiques ?
+                                    </h3>
+                                </div>
+                                <input type="button" value="Supprimer" class="bouton-supprimer">
+                            </div>
+                        </article>
+                    </li>
                 </ul>
-                <h2 id="1">Specifications</h2>
-                <h2 id="2">UX/UI</h2>
-                <h2 id="3">Contenus</h2>
-                <h2 id="4">Architecture</h2>
-                <h2 id="5">Frontend</h2>
-                <h2 id="6">Backend</h2>
-                <h2 id="7">Hébergement</h2>
-
-
-
-                <ul id="ulp">
-                    <!--ECRIRE ICI bonnes pratiques-->
-
-                </ul>
+                <h2 id="2">Réalisation</h2>
+                <h2 id="3">Déploiement</h2>
+                <h2 id="4">Administration</h2>
+                <h2 id="5">Utilisation</h2>
+                <h2 id="6">Fin de Vie</h2>
+                <h2 id="7">Revalorisation</h2>
+                <h2 id="8">N/A</h2>
 
             </article>
 

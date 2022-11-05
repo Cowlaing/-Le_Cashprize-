@@ -26,8 +26,10 @@ function affiche(jsonObj){
     let fam = document.createElement("h3");
     let reco = document.createElement("p");
     let input = document.createElement("input");
-    //Ajout de la classe et de l'id
+    //Ajout de la classe (pour FILTRE) et de l'id
     nouvLi.classList.add('pratique',jsonObj['famille']);
+    nouvLi.classList.add('type',jsonObj['type']);
+
     nouvLi.setAttribute("id",jsonObj['ID']);
     //Creation des textes des éléments
     fam.textContent = jsonObj['famille'];
@@ -68,6 +70,8 @@ afficheT.set("FRONTEND",false);
 afficheT.set("BACKEND",false);
 afficheT.set("HEBERGEMENT",false);
 
+afficheT.set("RECO",false);
+
 
 function cacherType(type){
     //Cache tous les elements avec la classe type
@@ -98,7 +102,7 @@ function afficheToutType(){
 }
 
 function gestionFiltre(type){
-    //Appel de la fcontion avec le type à afficher
+    //Appel de la fonction avec le type à afficher
     afficheT.set(type, !afficheT.get(type)); // Inversion de la valeur
     //gestion de filtre type
     //Verification si tout les elements sont false (situation de depart)

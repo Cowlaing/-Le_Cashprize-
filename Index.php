@@ -41,12 +41,12 @@
               <legend>Famille</legend>
               <ul id="liste_filtres">
                 <li>
-                  <input type="checkbox" name="type[]" id="spec" value="spec" onclick="gestionFiltre('SPECIFICATIONS')">
-                  <label for="spec">Specifications</label>
-                </li>
-                <li>
                   <input type="checkbox" name="type[]" id="strat" value="strat" onclick="gestionFiltre('STRATEGIE')">
                   <label for="strat">Strategie</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="type[]" id="spec" value="spec" onclick="gestionFiltre('SPECIFICATIONS')">
+                  <label for="spec">Specifications</label>
                 </li>
                 <li>
                   <input type="checkbox" name="type[]" id="ux" value="ux" onclick="gestionFiltre('UX/UI')">
@@ -78,7 +78,7 @@
               <legend>Type</legend>
               <ul id="liste_filtres">
                 <li>
-                  <input type="checkbox" name="type[]" id="reco" value="reco" onclick="">
+                  <input type="checkbox" name="type[]" id="reco" value="reco" onclick="gestionFiltre('RECO')">
                   <label for="reco">Recommandation</label>
                 </li>
                 <li>
@@ -173,11 +173,11 @@
               <div class="graphique5">.</div>
             </div>
           </form>
- 
+
         </div>
       </div>
       <article class="main">
-        <h2 class="titre">"compteur" critères</h2>
+        <h2 class="titre">491 critères</h2>
         <p class="titre">Sélectionnez les bonnes pratiques que vous souhaitez ajouter à votre projet parmis les 491 critères du référentiel INR.</p>
 
         <ul id="ulp">

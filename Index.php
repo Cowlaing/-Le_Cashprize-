@@ -82,7 +82,7 @@
                   <label for="reco">Recommandation</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="type[]" id="cons" value="cons" onclick="">
+                  <input type="checkbox" name="type[]" id="cons" value="cons" onclick="gestionFiltre('CONSEIL')">
                   <label for="cons">Conseil</label>
                 </li>
             </fieldset>
@@ -90,15 +90,15 @@
               <legend>Impact personnes</legend>
               <ul id="liste_filtres">
                 <li>
-                  <input type="checkbox" name="type[]" id="peopleA" value="peopleA" onclick="">
+                  <input type="checkbox" name="type[]" id="peopleA" value="peopleA" onclick="gestionFiltre('people-A')">
                   <label for="peopleA">A</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="type[]" id="peopleB" value="peopleB" onclick="">
+                  <input type="checkbox" name="type[]" id="peopleB" value="peopleB" onclick="gestionFiltre('people-B')">
                   <label for="peopleB">B</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="type[]" id="peopleC" value="peopleC" onclick="">
+                  <input type="checkbox" name="type[]" id="peopleC" value="peopleC" onclick="gestionFiltre('people-C')">
                   <label for="peopleC">C</label>
                 </li>
               </ul>
@@ -107,15 +107,15 @@
               <legend>Impact planète</legend>
               <ul id="liste_filtres">
                 <li>
-                  <input type="checkbox" name="type[]" id="planetA" value="planetA" onclick="">
+                  <input type="checkbox" name="type[]" id="planetA" value="planetA" onclick="gestionFiltre('planet-A')">
                   <label for="planetA">A</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="type[]" id="planetB" value="planetB" onclick="">
+                  <input type="checkbox" name="type[]" id="planetB" value="planetB" onclick="gestionFiltre('planet-B')">
                   <label for="planetB">B</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="type[]" id="planetC" value="planetC" onclick="">
+                  <input type="checkbox" name="type[]" id="planetC" value="planetC" onclick="gestionFiltre('planet-C')">
                   <label for="planetC">C</label>
                 </li>
               </ul>
@@ -124,15 +124,15 @@
               <legend>Impact prospérité</legend>
               <ul id="liste_filtres">
                 <li>
-                  <input type="checkbox" name="type[]" id="prosperityA" value="prosperityA" onclick="">
+                  <input type="checkbox" name="type[]" id="prosperityA" value="prosperityA" onclick="gestionFiltre('prosperity-A')">
                   <label for="prosperityA">A</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="type[]" id="prosperityB" value="prosperityB" onclick="">
+                  <input type="checkbox" name="type[]" id="prosperityB" value="prosperityB" onclick="gestionFiltre('prosperity-B')">
                   <label for="prosperityB">B</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="type[]" id="prosperityC" value="prosperityC" onclick="">
+                  <input type="checkbox" name="type[]" id="prosperityC" value="prosperityC" onclick="gestionFiltre('prosperity-C')">
                   <label for="prosperityC">C</label>
                 </li>
               </ul>
@@ -141,19 +141,19 @@
               <legend>Difficulté de mise en oeuvre</legend>
               <ul id="liste_filtres">
                 <li>
-                  <input type="checkbox" name="type[]" id="difficulty-N/A" value="difficulty-N/A" onclick="">
+                  <input type="checkbox" name="type[]" id="difficulty-N/A" value="difficulty-N/A" onclick="gestionFiltre('difficulty-N/A')">
                   <label for="difficulty-N/A">N/A</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="type[]" id="difficulty-facile" value="difficulty-facile" onclick="">
+                  <input type="checkbox" name="type[]" id="difficulty-facile" value="difficulty-facile" onclick="gestionFiltre('FACILE')">
                   <label for="difficulty-facile">Facile</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="type[]" id="difficulty-mid" value="difficulty-mid" onclick="">
+                  <input type="checkbox" name="type[]" id="difficulty-mid" value="difficulty-mid" onclick="gestionFiltre('MODEREE')">
                   <label for="difficulty-mid">Modérée</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="type[]" id="difficulty-hard" value="difficulty-hard" onclick="">
+                  <input type="checkbox" name="type[]" id="difficulty-hard" value="difficulty-hard" onclick="gestionFiltre('DIFFICILE')">
                   <label for="difficulty-hard">Difficile</label>
                 </li>
               </ul>

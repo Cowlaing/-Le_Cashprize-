@@ -27,8 +27,13 @@ function affiche(jsonObj){
     let reco = document.createElement("p");
     let input = document.createElement("input");
     //Ajout de la classe (pour FILTRE) et de l'id
-    nouvLi.classList.add('pratique',jsonObj['famille']);
-    nouvLi.classList.add('type',jsonObj['type']);
+    nouvLi.classList.add(jsonObj['famille']);
+    nouvLi.classList.add(jsonObj['type']);
+    nouvLi.classList.add(jsonObj['miseEnOeuvre']);
+    nouvLi.classList.add(jsonObj['planet']);
+    nouvLi.classList.add(jsonObj['people']);
+    nouvLi.classList.add(jsonObj['prosperity']);
+
 
     nouvLi.setAttribute("id",jsonObj['ID']);
     //Creation des textes des éléments
@@ -61,6 +66,7 @@ function afficheTout(jsonObj){
 }
 
 var afficheT = new Map();
+//famille
 afficheT.set("STRATEGIE",false); //De base tout n'est pas afficher;
 afficheT.set("SPECIFICATIONS",false);
 afficheT.set("UX/UI",false);
@@ -69,8 +75,26 @@ afficheT.set("ARCHITECTURE",false);
 afficheT.set("FRONTEND",false);
 afficheT.set("BACKEND",false);
 afficheT.set("HEBERGEMENT",false);
-
+/*//type            NE SAIS PAS PQ mais il ne faut pas les mettre
 afficheT.set("RECO",false);
+afficheT.set("CONSEIL",false);
+//difficulté de mise en oeuvre
+afficheT.set("difficulty-N/A",false);
+afficheT.set("FACILE",false);
+afficheT.set("MODEREE",false);
+afficheT.set("DIFFICILE",false);
+//impact planète
+afficheT.set("planet-A",false);
+afficheT.set("planet-B",false);
+afficheT.set("planet-C",false);
+//impact personnes
+afficheT.set("people-A",false);
+afficheT.set("people-B",false);
+afficheT.set("people-C",false);
+//impact prospérité
+afficheT.set("prosperity-A",false);
+afficheT.set("prosperity-B",false);
+afficheT.set("prosperity-C",false);*/
 
 
 function cacherType(type){

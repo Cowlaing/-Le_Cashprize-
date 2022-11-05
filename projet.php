@@ -68,10 +68,7 @@
                 <h4 id="0">Strategie</h4>
                 <ul class="strategie">
                     <li class="Item">
-                        <a name="type[]" id="#1" value="front" href='javascript:gestionFiltre("UX/UI")'>test
-                    <script>
-                        gestionFiltre('UX/UI')
-                    </script>
+                        <a name="type[]" id="#1" value="front" onload="gestionFiltre('UX/UI')">test
                     </a>
                     </li>
                     <ul id="ulp">

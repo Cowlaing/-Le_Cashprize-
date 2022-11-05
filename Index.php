@@ -13,7 +13,7 @@
   <link rel="stylesheet" type="text/css" href="print.css" media="print">
 </head>
 
-<body>
+<body id="top">
   <!--Header PHP-->
   <?php include 'header.php';  ?>
 
@@ -191,7 +191,9 @@
     </div>
   </section>
 
-
+  <a href="#top" data-screen-only>
+    <button class="top"></button>
+  </a>
   <!--Footer PHP-->
   <?php include 'footer.php';  ?>
   <script src="main.js"></script>

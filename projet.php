@@ -13,24 +13,30 @@
     <link rel="stylesheet" type="text/css" href="print.css" media="print">
 </head>
 
-<body>
+<body id="top">
     <!--Header PHP-->
     <?php include 'header.php';  ?>
     <section class="container">
         <h2 class="titre">Projet</h2>
     </section>
     <table class="tableau-panier">
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Famille</th>
-                    <th>Description</th>
-                </tr>
-            </thead>
-            <tbody id = "corps-tableau-panier"></tbody>
-        </table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Famille</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody id="corps-tableau-panier"></tbody>
+    </table>
 
+    <section>
+        <input id="viderPanier" name="viderPanier" type="button" class="Button" onclick="vider()" value="Vider le panier" />
+    </section>
 
+    <a href="#top" data-screen-only>
+        <button class="top"></button>
+    </a>
     <!--Footer PHP-->
     <?php include 'footer.php';  ?>
     <script src="gestionPanier.js"></script>

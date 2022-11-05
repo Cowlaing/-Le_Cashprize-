@@ -24,7 +24,6 @@ function affiche(jsonObj){
     let nouvArticle = document.createElement("article");
     let divMain = document.createElement("div"); //space-beetween
     let divText = document.createElement("div"); //gauche
-    
 
     let spanLigne = document.createElement("span");
     let spanAttributs = document.createElement("span");
@@ -33,10 +32,9 @@ function affiche(jsonObj){
     let spanProsperity = document.createElement("span");
     let spanDifficulty = document.createElement("span");
 
-
     let crit = document.createElement("h3");
-    let para = document.createElement("p");
     let input = document.createElement("input"); //droite
+    
     //Ajout de la classe (pour FILTRE) et de l'id
     nouvLi.classList.add('LiListeItem',jsonObj['incontournable'],jsonObj['famille'],jsonObj['type'],jsonObj['miseEnOeuvre'],jsonObj['planet'],jsonObj['people'],jsonObj['prosperity']); //AJOUTER classe à un élément
     /*nouvLi.classList.add(jsonObj['type']);
@@ -78,6 +76,7 @@ function affiche(jsonObj){
     //Configuration du bouton ajouter
     input.type ="button";
     input.value="Ajouter";
+    input.setAttribute('data-screen-only','');
     input.classList.add("bouton-ajouter");
     input.addEventListener('click',function(){
         ajouterPanier(jsonObj['ID']);
@@ -201,14 +200,20 @@ async function getPratiques(){
 //Partie gestion de panier
 
 
-//Le panier
-var panier = [];
+//Le panier en local storage, on ne le reset pas si non vide
+var panier =[]
+//Le panier ne contient que les ID des articles
+if (localStorage.getItem("panier") != null){
+    panier = Array.from(JSON.parse(localStorage.getItem("panier")));
+}
+
+
 //La focntion
 function ajouterPanier(id){
     //Récupère la liste des pratiques
     var pratiques = request.response;
     var prat = pratiques['listePratiques'];
-    //On cherhce la pratique avec le bon id
+    //On cherche la pratique avec le bon id
     let index = 0;
     for (var i =0;i< prat.length;i++){
         if(prat[i]['ID'] == id){
@@ -216,20 +221,19 @@ function ajouterPanier(id){
             stop;
         }
     }
-    //On recupere la pratique (objet Json)
-    let element = prat[index];
-    let pratique = document.getElementById(id);
-    //Verfions si l'element n'est pas deja dans le panier
-    if(!pratique.classList.contains("dans-panier")){
-        //Ajoute l'elemenet dans le panier
-        panier.push(element);
+
+    //Verifions si l'element n'est pas deja dans le panier
+    if(!panier.includes(index)){
+        //Ajoute l'index de l'elemenet dans le panier
+        panier.push(index);
         //Ajoute la classe "dans-panier"
-        pratique.classList.add("dans-panier");
+        localStorage.setItem("panier",JSON.stringify(panier))
     }
     else{
         window.alert("Deja dans le panier");
     }
+    panier = Array.from(JSON.parse(localStorage.getItem("panier")));
     
 }
-
-
+//vider le panier
+//localStorage.clear();

@@ -1,37 +1,80 @@
+//test impression
+function imprimer_page(){
+    window.print();
+}
 
-
-var requestURL = "pratiques.json";
+var requestURL = "pratiquesFROMexcel.json";
 var request = new XMLHttpRequest();
 
 request.open('GET',requestURL);
 request.responseType ='json';
 request.send();
-var pratiques = request.response;
 
-request.onload = function(){
+
+request.onload = function(){ //CHARGE LES PRATIQUES ICI
     var pratiques = request.response;
+    console.log(pratiques.listePratiques.length); //affiche dans la console la longueur
     afficheTout(pratiques);
 }
 
 function affiche(jsonObj){
     //Creation des éléments
-    let nouvLi = document.createElement('li');
+    let ul = document.getElementById("ulp"); //disposer tous les éléments dans l'élément avec id "ulp"
+    let nouvLi = document.createElement('li'); 
     let nouvArticle = document.createElement("article");
-    let ul = document.getElementById("ulp");
-    let fam = document.createElement("h3");
-    let reco = document.createElement("p");
-    let input = document.createElement("input");
-    //Ajout de la classe et de l'id
-    nouvLi.classList.add('pratique',jsonObj['famille']);
+    let divMain = document.createElement("div"); //space-beetween
+    let divText = document.createElement("div"); //gauche
+    
+
+    let spanLigne = document.createElement("span");
+    let spanAttributs = document.createElement("span");
+    let spanPeople = document.createElement("span");
+    let spanPlanet = document.createElement("span");
+    let spanProsperity = document.createElement("span");
+    let spanDifficulty = document.createElement("span");
+
+
+    let crit = document.createElement("h3");
+    let para = document.createElement("p");
+    let input = document.createElement("input"); //droite
+    //Ajout de la classe (pour FILTRE) et de l'id
+    nouvLi.classList.add('LiListeItem',jsonObj['famille'],jsonObj['type'],jsonObj['miseEnOeuvre'],jsonObj['planet'],jsonObj['people'],jsonObj['prosperity']); //AJOUTER classe à un élément
+    /*nouvLi.classList.add(jsonObj['type']);
+    nouvLi.classList.add(jsonObj['miseEnOeuvre']);
+    nouvLi.classList.add(jsonObj['planet']);
+    nouvLi.classList.add(jsonObj['people']);
+    nouvLi.classList.add(jsonObj['prosperity']);*/
     nouvLi.setAttribute("id",jsonObj['ID']);
+
+    divMain.classList.add('mainListeItem');
+    spanPeople.classList.add('attributs');
+    spanPlanet.classList.add('attributs');
+    spanProsperity.classList.add('attributs');
+    spanDifficulty.classList.add('attributs');
     //Creation des textes des éléments
-    fam.textContent = jsonObj['famille'];
-    reco.textContent = jsonObj['recommandation'];
+    spanLigne.textContent = jsonObj['type'] +" "+ jsonObj['famille'];
+    spanPeople.textContent = jsonObj['people'];
+    spanPlanet.textContent = jsonObj['planet'];
+    spanProsperity.textContent = jsonObj['prosperity'];
+    spanDifficulty.textContent = jsonObj['miseEnOeuvre'];
+
+    //fam.textContent = jsonObj['famille'];
+    crit.textContent = jsonObj['criteres'];
     //Class bouton-ajouter et texte ajouter pour le bouton
     
-    //Ajout des éléments dans la document
-    nouvArticle.appendChild(fam);
-    nouvArticle.appendChild(reco);
+    //Ajout des éléments dans le document
+    nouvArticle.appendChild(divMain);
+
+    divMain.appendChild(divText);
+    divMain.appendChild(input);
+
+    divText.appendChild(spanLigne);
+    spanLigne.appendChild(spanAttributs);
+    spanAttributs.appendChild(spanPeople);
+    spanAttributs.appendChild(spanPlanet);
+    spanAttributs.appendChild(spanProsperity);
+    spanAttributs.appendChild(spanDifficulty);
+    divText.appendChild(crit);
     //Configuration du bouton ajouter
     input.type ="button";
     input.value="Ajouter";
@@ -39,21 +82,21 @@ function affiche(jsonObj){
     input.addEventListener('click',function(){
         ajouterPanier(jsonObj['ID']);
     })
-    //Ajout du bouton
-    nouvArticle.appendChild(input);
+    
     //Ajout du reste des éléments
     nouvLi.appendChild(nouvArticle);
     ul.appendChild(nouvLi);
 }
 
 function afficheTout(jsonObj){
-    var prat = jsonObj['pratiques'];
+    var prat = jsonObj['listePratiques'];
     for (var i =0; i<prat.length;i++){
         affiche(prat[i]);
     }
 }
 
 var afficheT = new Map();
+//famille
 afficheT.set("STRATEGIE",false); //De base tout n'est pas afficher;
 afficheT.set("SPECIFICATIONS",false);
 afficheT.set("UX/UI",false);
@@ -62,6 +105,26 @@ afficheT.set("ARCHITECTURE",false);
 afficheT.set("FRONTEND",false);
 afficheT.set("BACKEND",false);
 afficheT.set("HEBERGEMENT",false);
+/*//type            NE SAIS PAS PQ mais il ne faut pas les mettre
+afficheT.set("RECOMMANDATION",false);
+afficheT.set("CONSEIL",false);
+//difficulté de mise en oeuvre
+afficheT.set("difficulty-N/A",false);
+afficheT.set("FACILE",false);
+afficheT.set("MODEREE",false);
+afficheT.set("DIFFICILE",false);
+//impact planète
+afficheT.set("planet-A",false);
+afficheT.set("planet-B",false);
+afficheT.set("planet-C",false);
+//impact personnes
+afficheT.set("people-A",false);
+afficheT.set("people-B",false);
+afficheT.set("people-C",false);
+//impact prospérité
+afficheT.set("prosperity-A",false);
+afficheT.set("prosperity-B",false);
+afficheT.set("prosperity-C",false);*/
 
 
 function cacherType(type){
@@ -93,7 +156,7 @@ function afficheToutType(){
 }
 
 function gestionFiltre(type){
-    //Appel de la fcontion avec le type à afficher
+    //Appel de la fonction avec le type à afficher
     afficheT.set(type, !afficheT.get(type)); // Inversion de la valeur
     //gestion de filtre type
     //Verification si tout les elements sont false (situation de depart)
@@ -121,6 +184,19 @@ function gestionFiltre(type){
         afficheToutType();
     }
 }
+
+//Partie RECHERCHE
+/*
+const searchInput = document.querySelector("#search") //ici ID search
+const searchResult = document.querySelector(".main")
+
+let dataArray;
+async function getPratiques(){
+    const res = pratiques //base de données = pratiques
+
+}
+*/
+
 
 //Partie gestion de panier
 

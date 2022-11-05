@@ -9,11 +9,11 @@ var request = new XMLHttpRequest();
 request.open('GET',requestURL);
 request.responseType ='json';
 request.send();
-
+var pratiques = request.response;
 
 request.onload = function(){ //CHARGE LES PRATIQUES ICI
     var pratiques = request.response;
-    console.log(pratiques.listePratiques.length); //affiche dans la console la longueur
+    //console.log(pratiques.listePratiques.length); //affiche dans la console la longueur
     afficheTout(pratiques);
 }
 
@@ -207,7 +207,7 @@ var panier = [];
 function ajouterPanier(id){
     //Récupère la liste des pratiques
     var pratiques = request.response;
-    var prat = pratiques['pratiques'];
+    var prat = pratiques['listePratiques'];
     //On cherhce la pratique avec le bon id
     let index = 0;
     for (var i =0;i< prat.length;i++){

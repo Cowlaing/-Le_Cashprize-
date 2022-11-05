@@ -24,11 +24,11 @@
         <div class="component">
           <form class="content" data-screen-only>
             <h2 class="titre">Recherche</h2>
-
+            <!-- partie recherche
             <fieldset>
               <legend>Recherchez par nom</legend>
               <input type="text" id="search">
-            </fieldset>
+            </fieldset>-->
             <fieldset>
               <legend>Incontournables</legend>
               <ul id="liste_filtres">
@@ -187,13 +187,14 @@
 
       </article>
 
-      <script src="main.js"></script>
+      
     </div>
   </section>
 
 
   <!--Footer PHP-->
   <?php include 'footer.php';  ?>
+  <script src="main.js"></script>
 </body>
 
 </html

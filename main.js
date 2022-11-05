@@ -38,7 +38,7 @@ function affiche(jsonObj){
     let para = document.createElement("p");
     let input = document.createElement("input"); //droite
     //Ajout de la classe (pour FILTRE) et de l'id
-    nouvLi.classList.add('LiListeItem',jsonObj['famille'],jsonObj['type'],jsonObj['miseEnOeuvre'],jsonObj['planet'],jsonObj['people'],jsonObj['prosperity']); //AJOUTER classe à un élément
+    nouvLi.classList.add('LiListeItem',jsonObj['incontournable'],jsonObj['famille'],jsonObj['type'],jsonObj['miseEnOeuvre'],jsonObj['planet'],jsonObj['people'],jsonObj['prosperity']); //AJOUTER classe à un élément
     /*nouvLi.classList.add(jsonObj['type']);
     nouvLi.classList.add(jsonObj['miseEnOeuvre']);
     nouvLi.classList.add(jsonObj['planet']);

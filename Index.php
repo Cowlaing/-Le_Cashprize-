@@ -33,7 +33,7 @@
               <legend>Incontournables</legend>
               <ul id="liste_filtres">
                 <li>
-                  <input type="checkbox" name="type[]" id="incontourables" value="incontourables" onclick="">
+                  <input type="checkbox" name="type[]" id="incontourables" value="incontourables" onclick="gestionFiltre('INCONTOURNABLE')">
                   <label for="incontourables">Critères incontournables</label>
                 </li>
             </fieldset>

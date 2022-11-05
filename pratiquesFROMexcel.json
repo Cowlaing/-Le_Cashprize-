@@ -8,7 +8,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les réunions sont-elles limitées au strict minimum, en privilégiant le distanciel, lorsque les réunions nécessitent des déplacements physiques ?",
       "cycleVie": "N/A",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Meeting Distance",
       "yIndicateurs": "Meeting total"
@@ -21,7 +21,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Le télétravail est-il autorisé, sans limites, aux collaborateurs qui le souhaitent et dont l'activité le permet ?",
       "cycleVie": "N/A",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Propositions de télétravail",
       "yIndicateurs": "Postes elligibles"
@@ -56,7 +56,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Comment faire du NR plus qu'un objectif de communication ? Est-ce que des résultats concrets sont associés à la démarche NR ? (pas de Greenwashing)",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Oui = 100 ; Partiel = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -69,7 +69,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Le besoin métier est-il exprimé ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Expression rédigée et validée = 100 ; Expression formalisée = 75 ; Tacite = 30 ; Non = 0",
@@ -83,7 +83,7 @@
       "prosperity": "prosperity-B",
       "criteres": "La cible des utilisateurs (principale et secondaire) est-elle définie, pour préciser le besoin métier ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
     {
@@ -94,7 +94,7 @@
       "prosperity": "prosperity-C",
       "criteres": "Les matériels utilisateurs sont-ils identifiés ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -105,7 +105,7 @@
       "prosperity": "prosperity-A",
       "criteres": "L’ensemble des produits et services sont-ils indispensables en ligne ? \n",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Abordée = 100 ; Partielle = 50 ; Non traitée = 0",
       "yIndicateurs": 100
@@ -118,7 +118,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est ce que je peux proposer de couvrir les besoins autrement, en évitant le digital avec un moyen plus respectueux de l’environnement ? ",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Questions formalisées",
       "yIndicateurs": "Besoins clients"
@@ -131,7 +131,7 @@
       "prosperity": "prosperity-B",
       "criteres": "La solution retenue est-elle la plus respectueuse de l'environnement? Sinon, ce choix est-il justifié par le besoin utilisateur?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Oui = 100 ; Partiel = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -166,7 +166,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Les gains NR sont-ils évalués en préalable du projet ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -234,7 +234,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Les budgets financiers pour les aspects NR du projet sont-ils évalués ?",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -247,7 +247,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Des équipements matériels sont-ils à renouveler ou à acheter pour le projet, les équipements supplémentaires nécessaires sont-ils mis à disposition en gardant en tête les principes du NR ?",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -260,7 +260,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Mes ressources humaines (Identifiées pour chaque phase) sont-elles disponibles ?",
       "cycleVie": "N/A",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -284,7 +284,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les objectifs NR sont-ils exposés clairement et partagés par toutes les parties prenantes, internes ou externes à l'organisation ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Informations diffusées",
       "yIndicateurs": "Parties prenantes"
@@ -297,7 +297,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Les délais de mise en oeuvre sont-ils envisagés ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -310,7 +310,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Le besoin couvert par le service numérique s'inscrit-il dans l'un des objectifs de développement durable?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Au moins 1 ODD couvert = 100 ; 0 ODD = 0",
@@ -324,7 +324,7 @@
       "prosperity": "prosperity-B",
       "criteres": "A-t-on les personnes avec les compétences techniques les plus pertinentes pour chaque élément du projet ? ",
       "cycleVie": "N/A",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formés au NR",
       "yIndicateurs": "Membre équipe"
@@ -337,7 +337,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les référents NR sont-ils listés et la liste communiquée aux acteurs du projet?",
       "cycleVie": "N/A",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -350,7 +350,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Une stratégie pour sensibiliser les collègues/partenaires/clients au NR est-elle mise en place avec des étapes permettant de faire progresser les pratiques en continu ?",
       "cycleVie": "N/A",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -363,7 +363,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les parties prenantes internes et externes sont-elles sensibilisées, voire formées/certifiées au NR ?",
       "cycleVie": "N/A",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Sensibilisations NR",
@@ -410,7 +410,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Le projet avec une démarche NR va t-il réellement répondre aux besoins de mes clients ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Abordée = 100 ; Partielle = 50 ; Non traitée = 0",
       "yIndicateurs": 100
@@ -434,7 +434,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Chacune des phases du cycle de vie (démarrage, maturité, arrêt) sont-elles identifiées avec des actions spécifiques ?",
       "cycleVie": "Revalorisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -447,7 +447,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les données ACV sont-elles réutilisées dans le cas d'une adaptation d'un service existant ?",
       "cycleVie": "Revalorisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -460,7 +460,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Si je décide de refaire mon service, qu’est-ce que je conserve de l’ancien et comment je le nettoie de la toile ? ",
       "cycleVie": "Revalorisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Volume réutilsé",
       "yIndicateurs": "Volume service"
@@ -473,7 +473,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que je peux recycler des briques logicielles ou du contenu existant ? Est-ce que je vais créer de la valeur réutilisable/valorisable dans d'autres projets ?",
       "cycleVie": "Revalorisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Volume réutilsé",
       "yIndicateurs": "Fonctionnalités"
@@ -508,7 +508,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Lors d'un audit, les éléments suivants sont-ils appréhendés ? A quel moment je gâche de l'énergie dans mon service ? Quels sont les pages/parcours utilisateurs en trop ou inutiles qui devraient donc être nettoyées ? ",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Parcours analysés",
       "yIndicateurs": "Parcours user"
@@ -521,7 +521,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Les indicateurs pour mesurer l'efficacité de ma démarche NR sont-ils identifiés et suivis ?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -545,7 +545,7 @@
       "prosperity": "prosperity-B",
       "criteres": "La durée de vie du projet est-elle définie ?",
       "cycleVie": "type",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
     {
@@ -589,7 +589,7 @@
       "prosperity": "prosperity-B",
       "criteres": "La conformité numérique responsable est-elle exposée ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Document validé et exposé = 100 ; Partiel = 50 ; Prévu = 25 ; Non = 0",
@@ -625,7 +625,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce qu'une donnée réglementée (santé, bancaire, ...)  est utilisée dans l'ensemble du système ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -638,7 +638,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Des données personnelles au sens du RGPD sont-elles utilisées ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
     {
@@ -704,7 +704,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les enjeux NR du projet ont-ils été communiqués à l'équipe dès l'origine ?",
       "cycleVie": "N/A",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Enjeux NR communiqués",
@@ -718,7 +718,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les référents NR de l'organisation sont-ils identifiés ?",
       "cycleVie": "N/A",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -742,7 +742,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Chaque entité de l'équipe Projet dispose-t-elle des compétences NR ?",
       "cycleVie": "N/A",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Plan de formation NR = 100 ; Mise à dispo de ressources NR = 50 ; Non = 0",
@@ -756,7 +756,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les données ACV sont-elles réutilisées dans le cas d'une adaptation d'un service existant ?",
       "cycleVie": "Revalorisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -813,7 +813,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les profils cibles sont-ils définis ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -824,7 +824,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les aspects numérique responsable sont-ils propagés et entretenus sur l'ensemble des profils utilisateurs ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
     {
@@ -846,7 +846,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Des fonctionnalités (User Story) concernent-elles uniquement les aspects NR ? ",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Nombre US NR",
       "yIndicateurs": "Nombre US NFR"
@@ -859,7 +859,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Quelle proportion des fonctionnalités (User Story) ont une composante NR ? ",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Nombre US avec info NR",
@@ -884,7 +884,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Chaque fonctionnalité est-elle évaluée par rapport aux usages ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
     {
@@ -906,7 +906,7 @@
       "prosperity": "prosperity-C",
       "criteres": "Les processus d'intégration continue ne génèrent-ils pas des brèches dans la prise en compte des aspects NR ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -930,7 +930,7 @@
       "prosperity": "prosperity-B",
       "criteres": "L'état des lieux des données d'entrée est-il mis à disposition afin d'être réutilisé dans d'autres projets?",
       "cycleVie": "Revalorisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -941,7 +941,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Les exigences NR sont elles associées à toutes les fonctionnalités produit ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Exigences NR",
       "yIndicateurs": "Fonctionnalités"
@@ -954,7 +954,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Chaque fonction principale ou secondaire du service est-elle appréhendée en regard de son importance dans le service ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -965,7 +965,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Toutes les exigences projet (performance, sécurité, accessibilité, NR) sont-elles associées à chaque fonctionnalité ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Exigences NR",
       "yIndicateurs": "Fonctionnalités avec NFR"
@@ -978,7 +978,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les cas d'exclusion de chaque fonctionnalité sont-ils adressés et des alternatives proposées ?",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -1000,7 +1000,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Quelles alternatives sont proposées pour traiter une fonctionnalité non retenue ?",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
     {
@@ -1033,7 +1033,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Les aspects réglementaires de l'accessibilité sont-ils pris en compte ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -1044,7 +1044,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Le service est-il conforme au RGPD ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -1057,7 +1057,7 @@
       "prosperity": "prosperity-B",
       "criteres": "La sécurité est-elle adaptée à la valeur de mes données ?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -1081,7 +1081,7 @@
       "prosperity": "prosperity-B",
       "criteres": "L'évaluation de la valeur fonctionnelle de chaque interaction utilisateur est-elle réalisée ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Validations",
       "yIndicateurs": "Interactions User"
@@ -1094,7 +1094,7 @@
       "prosperity": "prosperity-B",
       "criteres": "L'impact de la couverture de la fonctionnalité peut-elle être réduite par la solution technique envisagée ?",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Analysée = 100 ; présumée = 50 ; Non = 0",
       "yIndicateurs": "Fonctionnalités"
@@ -1107,7 +1107,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Avez-vous identifié des indicateurs de performance pour le suivi du cycle de vie ?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -1118,7 +1118,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Dans le processus d'achat (Appel d'offre) des exigences d'engagement NR sont-elles demandées aux prestataires externes ?",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Exigences NR dans AO",
@@ -1132,7 +1132,7 @@
       "prosperity": "prosperity-B",
       "criteres": "La gestion des impacts des mises à jour logicielles sur la mise en obsolescence des matériels est-elle évaluée ?",
       "cycleVie": "Maintenance",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Etude obsolescence",
       "yIndicateurs": "Mises à jour"
@@ -1145,7 +1145,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les équipements actuels des utilisateurs sont-ils évalués ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Evaluations",
       "yIndicateurs": "Matériels identifiés"
@@ -1158,7 +1158,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les revues de projet prennent-elles en compte les validations des exigences NR ?",
       "cycleVie": "Revalorisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Composantes NR dans les revues",
       "yIndicateurs": "Revues de projets"
@@ -1171,7 +1171,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Lors de chaque nouvelle mise en production, une revue du respect des enjeux NR est-elle effectuée ?",
       "cycleVie": "Maintenance",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Revue NR",
       "yIndicateurs": "Mise en production"
@@ -1184,7 +1184,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Les données et procédures spécifiées ont-elles toutes une information de fin de vie ?\n",
       "cycleVie": "type",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
@@ -1198,7 +1198,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que le produit cible à une durée de vie déterminée ?",
       "cycleVie": "type",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -1244,7 +1244,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les fonctions secondaires ont-elles aussi un impact moindre sur l'impact environnemental ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -1257,7 +1257,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les fournisseurs de solutions et prestataires de service sont-ils sélectionnés sur leur capacité à respecter un cahier des charges NR ?",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Composantes NR",
       "yIndicateurs": "Achats externes"
@@ -1292,7 +1292,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que les postes de travail font l'objet d'une gestion de cycle de vie ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -1305,7 +1305,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Un espace commun a-t-il été mis à disposition du projet pour le partage des ressources ? (ex : limiter les PJ mail, duplication de documents...)",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Systématique = 100 ; Conseillé = 50 : Non = 0",
       "yIndicateurs": 100
@@ -1318,7 +1318,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les ressources/composants disponibles pour le projet ont une information concernant la conformité NR ?\n",
       "cycleVie": "Revalorisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Information NR",
       "yIndicateurs": "Composants projet"
@@ -1331,7 +1331,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Dans les ressources techniques du projet est-ce que les gestions de dépendances sont prises en compte, pour limiter l'obésité des solutions techniques employées?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Analyses de dépendances",
       "yIndicateurs": "Solutions techniques"
@@ -1366,7 +1366,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Quels sont les KPIs définis ?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "KPIs NR",
       "yIndicateurs": "KPI"
@@ -1379,7 +1379,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Dans les méthodes d'idéation, l'ensemble des parties prenantes est-il pris en compte dans toute sa dimension (humaine) ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
@@ -1393,7 +1393,7 @@
       "prosperity": "prosperity-B",
       "criteres": "La planète est-elle prise en compte dans les méthodes d'idéation pour intégrer la dimension écologique (planet centric design) ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
@@ -1407,7 +1407,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Les plus-values extra-financières du numérique responsable sont-elles valorisées dans le business model ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
@@ -1432,7 +1432,7 @@
       "prosperity": "prosperity-C",
       "criteres": "Les améliorations NR sont-elles  identifiées et systématiquement planifiées ?",
       "cycleVie": "Maintenance",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Composantes NR",
       "yIndicateurs": "Améliorations"
@@ -1445,7 +1445,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Pour les aspects NR les responsables projet (chef de projet, product owner ....) ont-ils les mêmes prérogatives que les aspects métiers?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; Arbitrés = 75 ; Possibles = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -1458,7 +1458,7 @@
       "prosperity": "prosperity-A",
       "criteres": "La production des livrables (production documentaire comprise) est-elle utilisée en amont du projet et est-elle produite pour permettre d'être réutilisée dans les projets suivants ?",
       "cycleVie": "Revalorisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -1480,7 +1480,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Les parties prenantes sont-elles sensibilisées au NR ?",
       "cycleVie": "N/A",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Sensibilisations NR",
@@ -1494,7 +1494,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les différentes étapes du projet sont-elles identifiées avec leur process de validation, afin de faire adhérer les parties prenantes à la démarche itérative ? ",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -1551,7 +1551,7 @@
       "prosperity": "prosperity-B",
       "criteres": "\nQuelles solutions sont déployées pour lutter contre l'illectronisme et simplifier les usages et services ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -1564,7 +1564,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les critères technologiques, sociaux, physiques, temporels qui permettent à vos utilisateurs d'atteindre leur but et limiter la fracture numérique, sont-ils pris en compte ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -1577,7 +1577,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Le service fonctionne-t-il avec des connexions faibles ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -1590,7 +1590,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que les mécanismes d'accès au service d'assistance sont disponibles et adaptés à tout public ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -1614,7 +1614,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Une stratégie de compatibilité avec les terminaux et versions logicielles obsolètes est-elle définie ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
@@ -1639,7 +1639,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Dès la conception, le service répond-t-il aux normes d'accessibilité en vigueur (au minimum) ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
@@ -1653,7 +1653,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Tout type d'utilisateur peut-il savoir facilement où il se trouve dans le service, par la mise en place d'un système de navigation inclusif ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -1680,7 +1680,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les fonctionnalités sont utilisées par l'utilisateur ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Validations d'utilisation",
@@ -1694,7 +1694,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les prises de décision sont-elles justifiées et soutenues par des indicateurs fiables sur les usages des fonctionnalités tout au long du cycle de vie du service ?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -1707,7 +1707,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Une politique / démarche / une routine de réduction et de priorisation progressive des fonctionnalités, interactions et éléments graphiques, est-elle mise en place ?",
       "cycleVie": "Maintenance",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -1742,7 +1742,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Un planning d'archivage et une version allégée des contenus anciens consultables sont-ils mis en oeuvre ?",
       "cycleVie": "type",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Volume supprimé",
       "yIndicateurs": "Volume des contenus inactifs"
@@ -1788,7 +1788,7 @@
       "prosperity": "prosperity-A",
       "criteres": "L'expérience utilisateur prend-elle en compte les évolutions possible du service (ajout/suppression de fonctionnalités) ? ",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -1834,7 +1834,7 @@
       "prosperity": "prosperity-B",
       "criteres": "La dématérialisation du service est-elle complète, et dans le cas où la production de documents papier est indispensable, est-elle conçue pour limiter son impact au minimum ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -1847,7 +1847,7 @@
       "prosperity": "prosperity-B",
       "criteres": "L'utilisateur peut-il controler l'activation de solutions tierces ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -1860,7 +1860,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Une méthode de démarche systémique est-elle en place, maîtrisée par les acteurs et associée à des outils ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE"
     },
     {
@@ -1871,7 +1871,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que la solution a été prototypée en amont, avec le parcours utilisateur et les interactions ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -1882,7 +1882,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Le comportement et le feedback utilisateur ont-ils été étudiés pour répondre au mieux à leurs besoins ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -1893,7 +1893,7 @@
       "prosperity": "prosperity-A",
       "criteres": "La conception est-elle documentée (fonctionnellement et techniquement), les livrables de conception doivent être intelligibles par l'équipe projet et transférables à l'équipe de développement ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -1906,7 +1906,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les recherches les plus fréquentes ont été étudiées et adressées pour qu'elles soient ou mises en cache ou affichées à l'utilisateur sans envoi de requête ou clics inutiles.",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Sollicitation des caches",
       "yIndicateurs": "Requètes de recherche"
@@ -1930,7 +1930,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Une démarche d'amélioration continue a-t-elle été mise en place ?",
       "cycleVie": "Maintenance",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -1943,7 +1943,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est ce que la fonctionnalité peut être proposée sans l'appel de scripts ou de bibliothèques externes (JS, AJAX, ...) ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Fonctionnalités analysées",
       "yIndicateurs": "Fonctionnalités candidates"
@@ -1967,7 +1967,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Une politique de gestion/utilisation des médias afin de réduire leurs impacts est-elle en place, avec des critères de compression et de formats des médias ?\n",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Media compressés",
@@ -1981,7 +1981,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Le nombre de polices de caractères (fonts) et les variantes de polices appelées (graisse, caractères utilisés dans le projet) sont-ils limités ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Moins de 3 polices = 100 ; 3-5 polices = 50 ; Plus de 5 = 0",
@@ -1995,7 +1995,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les fonctionnalités et composants natifs du système peuvent correspondre au besoin ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Fonctionnalités analysées",
       "yIndicateurs": "Fonctionnalités candidates"
@@ -2008,7 +2008,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les vidéos et animations sont-elles utilisées uniquement lorsqu'elles apportent une valeur pour l'utilisateur ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Vidéos analysées",
       "yIndicateurs": "Vidéos"
@@ -2021,7 +2021,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les images sont-elles optimisées par rapport à leurs fonctions ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Images analysées",
       "yIndicateurs": "Images"
@@ -2045,7 +2045,7 @@
       "prosperity": "prosperity-A",
       "criteres": "La notification de toutes les interactions machine / utilisateur ont-elles été prises en compte pour donner systématiquement à l'utilisateur le résultat de ses actions et gérer les erreurs ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Interactions analysées",
       "yIndicateurs": "Interactions utilisateurs"
@@ -2080,7 +2080,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Chacune des actions sont-elles initiées par l'utilisateur ? est-il informé de la portée et des conséquences de ses actions ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Interactions analysées",
       "yIndicateurs": "Interactions utilisateurs"
@@ -2104,7 +2104,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Le service évite-t-il les Dark Patterns ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
@@ -2118,7 +2118,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Les normes légales d'affichage et de communication sur le RGAA (service publique et Société privée de plus de 250 M d'€ de CA) sont-elles prises en compte ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE"
     },
     {
@@ -2129,7 +2129,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Des règles en matière de respect de l'utilisateur sont-elles mises en place ?  ",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
@@ -2143,7 +2143,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les publicités sont bien identifiées comme telles et ont-elles une vraie valeur économique dans le service ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -2156,7 +2156,7 @@
       "prosperity": "prosperity-C",
       "criteres": "Dans quelle mesure l'attention de l'utilisateur est-elle contrôlée par le service ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -2167,7 +2167,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les prestataires retenus pour la production des contenus ont un engagement NR, RSE, accessibilité (formations, inclusion, éthique) ?",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Engagements NR ou RSE",
       "yIndicateurs": "Prestataires"
@@ -2202,7 +2202,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Quels sont les droits d'utilisation des images, vidéos, illustrations et textes de mon site ?",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Ressources analysées",
       "yIndicateurs": "Ressources"
@@ -2215,7 +2215,7 @@
       "prosperity": "prosperity-C",
       "criteres": "Les balises de mise en forme de texte répondent-elles au besoin de hiérarchisation des informations, et pas à des mises en valeur de présentation ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Tags analysés",
@@ -2229,7 +2229,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce  que les images ont été compressées en amont dans un format adapté pour sa visualisation ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Images compressées",
@@ -2243,7 +2243,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Quelles sont les images réellement porteuses de sens utiles à la compréhension du service (exemples: logo, images liens, images contractuelles...) ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Images analysées",
       "yIndicateurs": "Images"
@@ -2256,7 +2256,7 @@
       "prosperity": "prosperity-B",
       "criteres": "De quelles images peut-on se passer (pas utile à la compréhension du service) ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Images analysées",
       "yIndicateurs": "Images"
@@ -2269,7 +2269,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que du texte peut remplacer certains types d'images (icons, picto...)",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Images analysées",
       "yIndicateurs": "Images"
@@ -2282,7 +2282,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Une alternative aux images est-elle systématiquement disponible ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Images analysées",
       "yIndicateurs": "Images"
@@ -2306,7 +2306,7 @@
       "prosperity": "prosperity-B",
       "criteres": "L'impact de l'internationalisation (multi-langues ...) est-il évalué ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -2319,7 +2319,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Le nombre de polices différentes est-il limité ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
     {
@@ -2330,7 +2330,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Privilégiez-vous les polices système ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
     {
@@ -2352,7 +2352,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que le formulaire permet à l'utilisateur de désactiver les fonctions dynamiques (ex: auto completion)",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -2363,7 +2363,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les formulaires sont utiles (exemple : ne pas créer de compte pour l'achat d'un produit/service - e-commerce) ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
     {
@@ -2385,7 +2385,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Lorsque des listes de sélection sont disponibles, sont-elles limitées aux valeurs pertinentes pour l'utilisateur du service ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Listes analysées",
       "yIndicateurs": "Listes de sélections"
@@ -2409,7 +2409,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que l'utilisation de Flash est supprimée, remplacée par un autre effet?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Appels flash supprimés",
       "yIndicateurs": "Appels flash"
@@ -2422,7 +2422,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les contenus actifs sont-ils déclenchés uniquement sur action de l'utilisateur ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Contenus analysés",
       "yIndicateurs": "Contenus actifs"
@@ -2435,7 +2435,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que le contenu animé est sur la partie visible de l'écran (pas d'animation déclenchée sous la partie active de l'écran)",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Contenus analysés",
       "yIndicateurs": "Contenus actifs"
@@ -2470,7 +2470,7 @@
       "prosperity": "prosperity-B",
       "criteres": "De quelles vidéos peut-on se passer (pas utile à la compréhension du service) ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Vidéos analysées",
       "yIndicateurs": "Vidéos"
@@ -2483,7 +2483,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que l'information portée par la vidéo peut être remplacée par une alternative (infographie...)",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Vidéos analysées",
@@ -2508,7 +2508,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que la durée des vidéos ayant été validées comme nécessaires est optimisée ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Vidéos analysées",
       "yIndicateurs": "Vidéos"
@@ -2532,7 +2532,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que le son de la vidéo peut-être restitué sous forme texte ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -2576,7 +2576,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les contenus sont-ils uniques dans tout le service ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Contenus uniques",
       "yIndicateurs": "Contenus"
@@ -2589,7 +2589,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les notifications utilisateurs sont-elles nécessaires et désactivables par l'utilisateur ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Notifications analysées",
       "yIndicateurs": "Notifications"
@@ -2602,7 +2602,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que la validité des données est contrôlée avant la soumission du formulaire ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Données validées en local",
       "yIndicateurs": "Données \"formelles\""
@@ -2626,7 +2626,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Chaque élément actif dispose-t-il d'un nom permettant de comprendre l'action qui sera réalisée par son utilisation ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Actions analysées",
       "yIndicateurs": "Actions user"
@@ -2650,7 +2650,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que tous les liens et images-liens sont utiles ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Liens validés",
       "yIndicateurs": "Liens"
@@ -2663,7 +2663,7 @@
       "prosperity": "prosperity-B",
       "criteres": "A t-on vérifié que les urls de destination sont bien valides ?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Liens validés",
       "yIndicateurs": "Liens"
@@ -2698,7 +2698,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les données utilisateurs collectées et exposées sont-elles clairement identifiées comme données personnelles et/ou sensibles lorsque c'est le cas?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Informations données personnelles",
       "yIndicateurs": "Données personnelles"
@@ -2711,7 +2711,7 @@
       "prosperity": "prosperity-B",
       "criteres": "L'utilisateur peut-il personnaliser la fréquence et le périmètre des contenus diffusés ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -2724,7 +2724,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Les documents à télécharger sont-ils compressés, optimisés et accessibles ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Documents compressés",
@@ -2749,7 +2749,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Chaque composant peut-il faire l'objet de tests de \"Non Régression\" au niveau fonctionnel ? ",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -2782,7 +2782,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Des sondes existent-elles pour mesurer en production la consommation réelle du code et permettre un dimensionnement au plus juste ? ",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -2793,7 +2793,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que l'hébergement des applications est densifié?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -2806,7 +2806,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que les environnements autres que production (DEV, QA, ...) sont éteints ou décommissionnés en dehors des plages d'usage (la nuit, en dehors des périodes de tests)?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
@@ -2820,7 +2820,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que les environnements de production non sollicités en dehors des pics de charge sont éteints ou décommissionnés?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -2833,7 +2833,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Les définitions des SLA et QoS pour chacune des fonctions de l'architecture applicative sont-elles spécifiées en accord avec les usages métiers ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -2846,7 +2846,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Le service numérique reste-t-il efficace pendant toute sa durée de vie effective ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -2859,7 +2859,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est ce que les contraintes légales liées à la persistance des données ont été analysées et les règles et délais d'oubli spécifiés ? La durée de vie des données a-t-elle fait l'objet d'une étude approfondie ? Les durées légales ont-elle été analysées ?",
       "cycleVie": "type",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -2872,7 +2872,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que la stratégie de stockage minimise les infrastructures ou la duplication des données par rapport à leur criticité ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -2885,7 +2885,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les données hors production sont-elles anonymisées et la volumétrie réduite pour obtenir un échantillon représentatif de la production ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -2920,7 +2920,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est ce qu'un modèle mettant en relation les ressources CPU/RAM/disques et les indicateurs physiques (consommation électrique, eau, ...) est utilisé ?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -2944,7 +2944,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Des mesures d'impact des services numériques ont-elle été mises en place sur le service ?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -2968,7 +2968,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Quelle est l'efficience de mon protocole d'échange entre le contenu et le contenant ? ",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
     {
@@ -2990,7 +2990,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Le protocole de communication choisi est-il situé dans la phase ascendante, stable ou descendante de son utilisation par rapport à des contraintes de performance, de sécurité, d'obligations légales ?",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -3034,7 +3034,7 @@
       "prosperity": "prosperity-A",
       "criteres": "L'architecture est-elle modulaire ? Permet-elle de recycler des composants déjà développés pour d'autres projets (authentification, référentiels de données, API, etc.) ?",
       "cycleVie": "Revalorisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -3047,7 +3047,7 @@
       "prosperity": "prosperity-A",
       "criteres": "L'architecture est-elle granulaire  et les interfaces sont-elles cohérentes pour respecter l'indépendance de chaque entité ? ",
       "cycleVie": "Revalorisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -3071,7 +3071,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Un cache est-il mis en place entre les différents composants du SI pour limiter les échanges sur le réseau, lorsque la nature des données le permet ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -3106,7 +3106,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que l'application minimise les données devant être échangées avec d'autres applications ou les utilisateurs avec l'utilisation d'une matrice de flux ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -3119,7 +3119,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Chaque composant déployé est-il qualifié du point de vue de sa durée de vie, et les procédures de déprovisonnement sont-elles systématiquement exprimées ?",
       "cycleVie": "type",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
@@ -3144,7 +3144,7 @@
       "prosperity": "prosperity-A",
       "criteres": "La traçabilité des exigences de sécurité est-elle garantie ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -3179,7 +3179,7 @@
       "prosperity": "prosperity-B",
       "criteres": "La valeur ajoutée du framework justifie-t-elle l'alourdissement de l'applicatif ?\nD'autres librairies ou framework plus légers et correspondant au besoin existent-ils ? ",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -3192,7 +3192,7 @@
       "prosperity": "prosperity-B",
       "criteres": "La fréquence d'utilisation de la fonctionnalité l'oblige-t-elle à être disponible en permanence ou peut-elle être mise à jour en arrière-plan (batch) ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -3216,7 +3216,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce qu'une optimisation des algorithmes et des traitements est réalisée dans l'application ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -3229,7 +3229,7 @@
       "prosperity": "prosperity-A",
       "criteres": "La capacité d'évolution / modification de l'application est-elle étudiée ?",
       "cycleVie": "Maintenance",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -3330,7 +3330,7 @@
       "prosperity": "prosperity-B",
       "criteres": "L'ensemble des équipements techniques utilisés par le service sont-ils identifiés?",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
@@ -3344,7 +3344,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Pour chaque équipement, les caractéristiques sont-elles disponibles ? (Ancienneté, données de performances environnementales, ...)",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
     {
@@ -3355,7 +3355,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Chaque fonction du service est-elle appréhendée en regard de son importance dans le service ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -3388,7 +3388,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Les données ACV sont-elles réutilisées dans le cas d'une adaptation d'un service existant ?",
       "cycleVie": "Revalorisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Oui = 100 ; Partiel = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -3445,7 +3445,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Les objectifs Numérique Responsable sont-ils qualifiés pour chaque type de public dans le design d'architecture ?",
       "cycleVie": "N/A",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -3478,7 +3478,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que les fonctions proposées sont bien en rapport avec un usage ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Fonctionnalités validées",
       "yIndicateurs": "Fonctionnalités"
@@ -3513,7 +3513,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Utilisez-vous des standards de développement éprouvés ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -3537,7 +3537,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les données ACV sont-elles réutilisées dans le cas d'une adaptation d'un service existant ?",
       "cycleVie": "Revalorisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -3594,7 +3594,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Le public cible du service est-il déterminé vis-à-vis de ses capacités d'utilisation du service ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -3605,7 +3605,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Utilisez vous les mécanismes de cache pour limiter les échanges ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -3618,7 +3618,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les fonctionnalités couvertes par des actions locales (côté client) sont privilégiées plutôt que des échanges API ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Fonctionnalités analysées",
@@ -3632,7 +3632,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les données remontées par les API sont bien uniquement celles dont l'application a besoin au moment où elles sont demandées ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Données API analysées",
       "yIndicateurs": "Données API collectées"
@@ -3656,7 +3656,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les bibliothèques utilisées permettent-elles de ne prendre que les composants effectivement utiles ?",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -3669,7 +3669,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les dépendances non utilisées sont-elles identifiées et retirées ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Dépendances utilisées",
       "yIndicateurs": "Dépendances natives"
@@ -3682,7 +3682,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que la fonctionnalité attendue ne pourrait pas être mise en place avec les capacités natives du navigateur ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -3704,7 +3704,7 @@
       "prosperity": "prosperity-B",
       "criteres": "L'ensemble des équipements techniques utilisés par le service sont-ils identifiés?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
     {
@@ -3748,7 +3748,7 @@
       "prosperity": "prosperity-B",
       "criteres": "La plage de rétro-compatibilité est-elle définie ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
@@ -3784,7 +3784,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les équipements plus anciens resteront compatibles, et dans quelles limites ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -3797,7 +3797,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Les fonctionnalités du service ne vont-elles pas au-delà des besoins utilisateurs ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Fonctionnalités utilisées",
@@ -3844,7 +3844,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les éléments de références sont-ils connus, tenus à jour, et mis à disposition de l'ensemble de l'équipe projet ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
     {
@@ -3855,7 +3855,7 @@
       "prosperity": "prosperity-B",
       "criteres": "L'état des lieux des données d'entrée est-il mis à disposition afin d'être réutilisé dans d'autres projets?",
       "cycleVie": "Revalorisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
     {
@@ -3866,7 +3866,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Limitez-vous les flux échangés ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -3901,7 +3901,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce qu'il y a des fichiers en double ?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Fichiers uniques",
       "yIndicateurs": "Fichiers"
@@ -3914,7 +3914,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Combien de domaines différents sont utilisés ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -3927,7 +3927,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les capteurs sont-ils sollicités au besoin réel, plutôt qu'en permanence ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Capteurs mis en oeuvre à la demande",
       "yIndicateurs": "Capteurs référencés"
@@ -3940,7 +3940,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les fonctions de mise en pause sont-elles disponibles ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Capteurs mis en pause hors utilisation",
       "yIndicateurs": "Capteurs référencés"
@@ -3975,7 +3975,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Informez-vous les utilisateurs des contraintes de volume et format de fichiers acceptés ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -3999,7 +3999,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que les uploads permettent uniquement la liste des types de fichiers autorisés ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
     {
@@ -4010,7 +4010,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Les images à uploader sont-elles bien redimensionnées et converties dans un format léger côté client avant transfert ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Images sans redimmentionnement ",
       "yIndicateurs": "Nombre d'images"
@@ -4023,7 +4023,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Les fichiers échangés sont-ils compressés ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Fichiers compressés",
       "yIndicateurs": "Fichiers échangés"
@@ -4036,7 +4036,7 @@
       "prosperity": "prosperity-B",
       "criteres": "La navigation rapide est-elle possible ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -4071,7 +4071,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Le service est-il adapté aux différents formats de support d'accessibilité ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -4082,7 +4082,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Les différents formats d'images disponibles ont-ils été évalués pour ne retenir que le plus efficace ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Images analysées",
       "yIndicateurs": "Images"
@@ -4095,7 +4095,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les redimensionnements d'images sont-ils traités en amont et en statique (côté serveur) ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Images analysées",
       "yIndicateurs": "Images"
@@ -4119,7 +4119,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Toutes les images ont-elles une alternative texte ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Images analysées",
       "yIndicateurs": "Images"
@@ -4154,7 +4154,7 @@
       "prosperity": "prosperity-B",
       "criteres": "La mise en forme en css est-elle privilégiée, pour limiter l'usage des images ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Images analysées",
       "yIndicateurs": "Images"
@@ -4189,7 +4189,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Une version épurée est-elle disponible pour les impressions ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
@@ -4203,7 +4203,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce bien une action utilisateur qui déclenche le \"play\" ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Actions sans auto start",
       "yIndicateurs": "Actions user"
@@ -4216,7 +4216,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les vidéos ou animations hors de la zone active sont-elles automatiquement mises en pause / stoppées ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Vidéos analysées",
       "yIndicateurs": "Vidéos"
@@ -4251,7 +4251,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Limitez-vous le nombre de fonts chargées pour le service ?\nPrivilégiez-vous les fonts web-safe ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
     {
@@ -4262,7 +4262,7 @@
       "prosperity": "prosperity-B",
       "criteres": "En cas d'impression, une police permettant l'économie d'encre est-elle mise en place ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -4275,7 +4275,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les polices utilisées ne sont pas chargées uniquement pour un nombre réduit d'objets ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Polices analysées",
       "yIndicateurs": "Polices"
@@ -4288,7 +4288,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Le service est-il développé en accord avec les recommandations RGAA ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
     {
@@ -4299,7 +4299,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les animations sont-elles nécessaires, souhaitées par l'utilisateur ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Animations analysées",
       "yIndicateurs": "Animations"
@@ -4312,7 +4312,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Une alternative CSS est-elle disponible pour une animation ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Animations analysées",
       "yIndicateurs": "Animations"
@@ -4325,7 +4325,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Les objets de cartographie, animations, vidéos sont-ils présentés dans un mode statique ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Objets analysés",
@@ -4361,7 +4361,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que le nombre de requêtes est minimisé (proscrire l'usage de boucle) ?\n",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
@@ -4386,7 +4386,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les requêtes implémentées utilisent les jointures plutôt que de multiplier les requêtes ? \n",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -4408,7 +4408,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que la suppression des données obsolètes est gérée ?",
       "cycleVie": "type",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -4421,7 +4421,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que les index des bases de données sont cohérents par rapport aux opérations ?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -4489,7 +4489,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les données \"vivantes\" et \"mortes\" sont gérées de manière différentes (ex: Stockage lent pour les données \"mortes\") ?",
       "cycleVie": "type",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -4502,7 +4502,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les données souvent accédées sont disponibles en RAM ?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -4513,7 +4513,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les réplications de données entre plusieurs instances de moteur de base de données (Cluster) sont adaptées à la sensibilité et au besoin de disponibilité ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -4526,7 +4526,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les données ont-elles une date d'expiration à laquelle elles sont supprimées ?",
       "cycleVie": "type",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -4539,7 +4539,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que des données sensibles sont collectées ?\nSont-elles indispensables ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Données sensibles analysées",
       "yIndicateurs": "Données sensibles"
@@ -4552,7 +4552,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les données collectées sont réellement utiles ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Données analysées",
       "yIndicateurs": "Données collectées"
@@ -4565,7 +4565,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que l'API fournit des limites, des filtres et la liste des champs à retourner ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Données API analysées",
       "yIndicateurs": "Données API collectées"
@@ -4578,7 +4578,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que les données sensibles des utilisateurs sont sécurisées ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Données sensibles analysées",
       "yIndicateurs": "Données sensibles"
@@ -4657,7 +4657,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que les ressources inutilisées sont bien libérées au plus vite ?",
       "cycleVie": "type",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -4681,7 +4681,7 @@
       "prosperity": "prosperity-B",
       "criteres": "La disponibilité du service nécessite-t-elle une redondance ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -4694,7 +4694,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les interactions entre les composants bénéficient-ils de systèmes de cache ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -4707,7 +4707,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que le framework ou la technologie utilisée ne bloque pas les caches navigateur ?",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -4751,7 +4751,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que la sécurisation implémentée est justifiée au regard des opérations réalisées ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -4775,7 +4775,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les fichiers temporaires sont inclus dans les \"logrotate\" ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Fichiers temporaires surveillés",
       "yIndicateurs": "fichiers temporaires"
@@ -4788,7 +4788,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les fonctionnalités sont-elles documentées pour permettre leur réutilisation ?",
       "cycleVie": "Revalorisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
@@ -4802,7 +4802,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que les données échangées sont compressées / minifiées avant transmission ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Volume compressé",
@@ -4816,7 +4816,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que la pagination est utilisée sur les échanges de données ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Données API analysées",
       "yIndicateurs": "Données API échangées"
@@ -4829,7 +4829,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que le nombre de requêtes entre le client et le serveur est minimisé ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Requètes analysées",
       "yIndicateurs": "Requètes BO"
@@ -4842,7 +4842,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les données échangées correspondent uniquement au besoin immédiat ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Données API analysées",
       "yIndicateurs": "Données API échangées"
@@ -4855,7 +4855,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les notifications utilisateurs sont-elles nécessaires ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Notifications analysées",
       "yIndicateurs": "Notifications"
@@ -4901,7 +4901,7 @@
       "prosperity": "prosperity-A",
       "criteres": "L'analyse de code est-elle utilisée dans le processus d'intégration continue?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Lignes analysées",
       "yIndicateurs": "Lignes de code"
@@ -4914,7 +4914,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que les métriques de qualité du code sont suivies ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -4971,7 +4971,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que la cartographie des traitements (RGPD) est disponible ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -4982,7 +4982,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que l'analyse de risques (RGPD) est réalisée ?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE"
     },
     {
@@ -4993,7 +4993,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que le RGAA est pris en compte ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -5004,7 +5004,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que les données réglementées (bancaires, santé, ...)  sont sécurisées ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -5026,7 +5026,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Le service en cours de conception est-il conforme aux évolutions de la société et de la législation ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE"
     },
     {
@@ -5037,7 +5037,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Le fournisseur d'infrastructures est-il en mesure d'exposer ses métriques environnementales ?",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5083,7 +5083,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que la fonctionnalité envisagée est utile ?",
       "cycleVie": "Conception",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Fonctionnalités utilisées",
@@ -5097,7 +5097,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Le dimensionnement des ressources d'infrastructures suit-il la vie de l'application ?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5110,7 +5110,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que l'architecture technique est en permanence en rapport avec l'activité du service ?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5134,7 +5134,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que les opérations de dé-provisionnement sont exprimées lors de la conception ?",
       "cycleVie": "type",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5147,7 +5147,7 @@
       "prosperity": "prosperity-A",
       "criteres": "L'ensemble des équipements techniques utilisés par le service sont-ils identifiés?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5160,7 +5160,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Pour chaque équipement, les caractéristiques sont-elles disponibles ? (Ancienneté, données de perf environnementales, ...)",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5195,7 +5195,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Chacune des phases du cycle de vie sont-elles identifiées avec des actions spécifiques ?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -5206,7 +5206,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les données ACV sont-elles réutilisées dans le cas d'une adaptation d'un service existant ?",
       "cycleVie": "Revalorisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -5250,7 +5250,7 @@
       "prosperity": "prosperity-C",
       "criteres": "L'eau utilisée ne provient-elle pas du réseau d'eau potable ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5285,7 +5285,7 @@
       "prosperity": "prosperity-C",
       "criteres": "Est-ce que le bâtiment est certifié LEED / BDM ou équivalent ?",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5298,7 +5298,7 @@
       "prosperity": "prosperity-C",
       "criteres": "Est-ce que le refroidissement est optimisé en fonction d'une analyse de température précise ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5333,7 +5333,7 @@
       "prosperity": "prosperity-C",
       "criteres": "Les alimentations des serveurs sont-elles efficaces ?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5346,7 +5346,7 @@
       "prosperity": "prosperity-C",
       "criteres": "Le taux d'occupation des salles du datacenter est-il optimisé pour améliorer le bilan énergétique ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
     {
@@ -5357,7 +5357,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que le WUE (Water Usage Effectivness) est disponible ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "WUE <= 1L/kwh = 100 ; WUE > 1L/kwh = 0",
       "yIndicateurs": 100
@@ -5370,7 +5370,7 @@
       "prosperity": "prosperity-B",
       "criteres": "L'hébergeur adhère-t-il aux meilleurs prattiques de son secteur d'activité ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Oui = 100 ; En cours = 50 : Prévu = 25 : Non = 0",
       "yIndicateurs": 100
@@ -5427,7 +5427,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Le matériel provient-il d'entreprises réputées comme respectant le code du travail ?",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -5438,7 +5438,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les équipements sont fabriqués par des entreprises respectueuses de l'environnement ?",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -5449,7 +5449,7 @@
       "prosperity": "prosperity-C",
       "criteres": "Les serveurs / routeurs sont-ils éteints quand ils sont inutilisés ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5462,7 +5462,7 @@
       "prosperity": "prosperity-B",
       "criteres": "La mémoire attribuée est-elle fonction de l'usage réel ?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5475,7 +5475,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Le nombre de coeurs attribués est-il fonction de l'usage réel ?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5499,7 +5499,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les coeurs inutilisés sont-ils désactivés ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5512,7 +5512,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Le système de sauvegarde est-il incrémentiel (optimisation disque) ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5547,7 +5547,7 @@
       "prosperity": "prosperity-B",
       "criteres": "La haute disponibilité est-elle conçue de manière modulaire?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5560,7 +5560,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Le provisionning / deprovisionning est-il dynamique en fonction de la charge ?",
       "cycleVie": "type",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5573,7 +5573,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les solutions de stockage permettent de réduire le nombre de composants (par exemple: supports SSD haute densité) ?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5586,7 +5586,7 @@
       "prosperity": "prosperity-C",
       "criteres": "L'électricité provient-elle d'énergies renouvelables ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Oui = 100 ; Partiel = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5599,7 +5599,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Le datacenter permet-il d'avoir des informations fiables en terme de consommations d'énergie?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Oui = 100 ; Partiel = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5612,7 +5612,7 @@
       "prosperity": "prosperity-B",
       "criteres": "L'hébergeur est-il transparent sur l'impact carbone de l'infrastructure et des usages pour ses clients ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Oui = 100 ; Partiel = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5625,7 +5625,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les fournisseurs sont sélectionnés en fonction de leurs capacités à communiquer les indicateurs différenciants ?",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
     {
@@ -5658,7 +5658,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Les équipements sont-ils réparés plutôt que remplacés ?",
       "cycleVie": "Maintenance",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Oui = 100 ; Partiel = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5682,7 +5682,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les matériaux de construction / gaine / isolant utilisés permettent une meilleure efficacité énergétique. Le bâtiment répond-t-il aux normes HQE , rt2012 ou équivalentes ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -5704,7 +5704,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les mesures carbon / water efficiency sont-elles disponibles ?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Oui = 100 ; Partiel = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5717,7 +5717,7 @@
       "prosperity": "prosperity-A",
       "criteres": "L'entreprise (l'hébergeur) applique-t-elle une politique RSE / RGAA ?",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
     {
@@ -5728,7 +5728,7 @@
       "prosperity": "prosperity-A",
       "criteres": "L'entreprise fournit-elle des garanties fiables en terme de RGPD ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Oui = 100 ; Partiel = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5752,7 +5752,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Toutes les données soumises à une réglementation (santé, bancaire) sont-elles sécurisées sur un hébergeur avec un niveau d'agrément compatible ?",
       "cycleVie": "Déploiement",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
     {
@@ -5785,7 +5785,7 @@
       "prosperity": "prosperity-A",
       "criteres": "Le datacenter est-il à minima Tier 3 ?",
       "cycleVie": "Réalisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Oui = 100 ; Partiel = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5809,7 +5809,7 @@
       "prosperity": "prosperity-B",
       "criteres": "La certification du datacenter est-elle adaptée au besoin et à l'emplacement géographique (sismique, innondation) ?",
       "cycleVie": "Acquisition",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Oui = 100 ; Partiel = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5844,7 +5844,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les processus mis en place pour la prévention des incidents prennent-ils en compte la non-dégradation des serveurs et équipements ?",
       "cycleVie": "Maintenance",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE",
       "xIndicateurs": "Oui = 100 ; Partiel = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -5857,7 +5857,7 @@
       "prosperity": "prosperity-B",
       "criteres": "L'impact environnemental d'implémentation de chaque fonction est-il en rapport avec son importance ?",
       "cycleVie": "Utilisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE"
     },
     {
@@ -5868,7 +5868,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Chacune des phases du cycle de vie sont-elles identifiées avec des actions spécifiques ?",
       "cycleVie": "Administration",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     },
     {
@@ -5879,7 +5879,7 @@
       "prosperity": "prosperity-B",
       "criteres": "Les données des études précédentes sont-elles disponibles et tenues à jour ?",
       "cycleVie": "Revalorisation",
-      "type": "RECO",
+      "type": "RECOMMANDATION",
       "miseEnOeuvre": "MODEREE"
     }
   ]

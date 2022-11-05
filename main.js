@@ -19,31 +19,62 @@ request.onload = function(){ //CHARGE LES PRATIQUES ICI
 
 function affiche(jsonObj){
     //Creation des éléments
-    let nouvLi = document.createElement('li');
-    // nouvLi.className="testLI"; AJOUTER classe à un élément
+    let ul = document.getElementById("ulp"); //disposer tous les éléments dans l'élément avec id "ulp"
+    let nouvLi = document.createElement('li'); 
     let nouvArticle = document.createElement("article");
-    let ul = document.getElementById("ulp");
-    let fam = document.createElement("h3");
-    let reco = document.createElement("p");
-    let input = document.createElement("input");
+    let divMain = document.createElement("div"); //space-beetween
+    let divText = document.createElement("div"); //gauche
+    
+
+    let spanLigne = document.createElement("span");
+    let spanAttributs = document.createElement("span");
+    let spanPeople = document.createElement("span");
+    let spanPlanet = document.createElement("span");
+    let spanProsperity = document.createElement("span");
+    let spanDifficulty = document.createElement("span");
+
+
+    let crit = document.createElement("h3");
+    let para = document.createElement("p");
+    let input = document.createElement("input"); //droite
     //Ajout de la classe (pour FILTRE) et de l'id
-    nouvLi.classList.add(jsonObj['famille']);
-    nouvLi.classList.add(jsonObj['type']);
+    nouvLi.classList.add('LiListeItem',jsonObj['famille'],jsonObj['type'],jsonObj['miseEnOeuvre'],jsonObj['planet'],jsonObj['people'],jsonObj['prosperity']); //AJOUTER classe à un élément
+    /*nouvLi.classList.add(jsonObj['type']);
     nouvLi.classList.add(jsonObj['miseEnOeuvre']);
     nouvLi.classList.add(jsonObj['planet']);
     nouvLi.classList.add(jsonObj['people']);
-    nouvLi.classList.add(jsonObj['prosperity']);
-
-
+    nouvLi.classList.add(jsonObj['prosperity']);*/
     nouvLi.setAttribute("id",jsonObj['ID']);
+
+    divMain.classList.add('mainListeItem');
+    spanPeople.classList.add('attributs');
+    spanPlanet.classList.add('attributs');
+    spanProsperity.classList.add('attributs');
+    spanDifficulty.classList.add('attributs');
     //Creation des textes des éléments
-    fam.textContent = jsonObj['famille'];
-    reco.textContent = jsonObj['criteres'];
+    spanLigne.textContent = jsonObj['type'] +" "+ jsonObj['famille'];
+    spanPeople.textContent = jsonObj['people'];
+    spanPlanet.textContent = jsonObj['planet'];
+    spanProsperity.textContent = jsonObj['prosperity'];
+    spanDifficulty.textContent = jsonObj['miseEnOeuvre'];
+
+    //fam.textContent = jsonObj['famille'];
+    crit.textContent = jsonObj['criteres'];
     //Class bouton-ajouter et texte ajouter pour le bouton
     
-    //Ajout des éléments dans la document
-    nouvArticle.appendChild(fam);
-    nouvArticle.appendChild(reco);
+    //Ajout des éléments dans le document
+    nouvArticle.appendChild(divMain);
+
+    divMain.appendChild(divText);
+    divMain.appendChild(input);
+
+    divText.appendChild(spanLigne);
+    spanLigne.appendChild(spanAttributs);
+    spanAttributs.appendChild(spanPeople);
+    spanAttributs.appendChild(spanPlanet);
+    spanAttributs.appendChild(spanProsperity);
+    spanAttributs.appendChild(spanDifficulty);
+    divText.appendChild(crit);
     //Configuration du bouton ajouter
     input.type ="button";
     input.value="Ajouter";
@@ -51,8 +82,7 @@ function affiche(jsonObj){
     input.addEventListener('click',function(){
         ajouterPanier(jsonObj['ID']);
     })
-    //Ajout du bouton
-    nouvArticle.appendChild(input);
+    
     //Ajout du reste des éléments
     nouvLi.appendChild(nouvArticle);
     ul.appendChild(nouvLi);
@@ -76,7 +106,7 @@ afficheT.set("FRONTEND",false);
 afficheT.set("BACKEND",false);
 afficheT.set("HEBERGEMENT",false);
 /*//type            NE SAIS PAS PQ mais il ne faut pas les mettre
-afficheT.set("RECO",false);
+afficheT.set("RECOMMANDATION",false);
 afficheT.set("CONSEIL",false);
 //difficulté de mise en oeuvre
 afficheT.set("difficulty-N/A",false);

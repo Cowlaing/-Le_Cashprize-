@@ -78,7 +78,7 @@
               <legend>Type</legend>
               <ul id="liste_filtres">
                 <li>
-                  <input type="checkbox" name="type[]" id="reco" value="reco" onclick="gestionFiltre('RECO')">
+                  <input type="checkbox" name="type[]" id="reco" value="reco" onclick="gestionFiltre('RECOMMANDATION')">
                   <label for="reco">Recommandation</label>
                 </li>
                 <li>

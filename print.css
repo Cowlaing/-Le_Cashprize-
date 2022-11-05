@@ -24,6 +24,9 @@ ul {
 	margin: 0;
 	padding: 0;
 }
+.hidden {
+    display: none !important;
+}
 
 [data-screen-only] { /*hide elements for the screen*/
 	display: none !important;

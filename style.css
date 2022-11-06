@@ -310,6 +310,10 @@ span {
     padding: 0 0.2rem;
 }
 
+.incontournable {
+    background: rgb(240,173,38,0.3);
+}
+
 h3 {
     font-size: 1rem;
     margin: 0;

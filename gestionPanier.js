@@ -76,7 +76,7 @@ ICI "fin de vie" marche pas → on le met en ELSE
   li.setAttribute("id", jsonObj["ID"]);
   li.classList.add("LiListeItem");
 
-  spanIncontournable.classList.add("attributs");
+  spanIncontournable.classList.add("attributs","incontournable");
   spanPeople.classList.add("attributs");
   spanPlanet.classList.add("attributs");
   spanProsperity.classList.add("attributs");
@@ -89,12 +89,18 @@ ICI "fin de vie" marche pas → on le met en ELSE
   spanDifficulty.textContent = jsonObj["miseEnOeuvre"];
   critere.textContent = jsonObj["criteres"];
 
+  
   //Structuration
   ul.appendChild(li);
   li.appendChild(article);
   article.appendChild(divArticle);
   divArticle.appendChild(spanLigne);
   spanLigne.appendChild(spanAttributs);
+  //SI critere INCONTOURNABLE :
+  if(jsonObj['incontournable']!=null){
+    spanIncontournable.textContent = jsonObj["incontournable"];
+    spanAttributs.appendChild(spanIncontournable);
+  }
   spanAttributs.appendChild(spanPeople);
   spanAttributs.appendChild(spanPlanet);
   spanAttributs.appendChild(spanProsperity);

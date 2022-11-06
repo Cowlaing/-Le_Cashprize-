@@ -56,7 +56,7 @@ function affiche(jsonObj) {
   nouvLi.setAttribute("id", jsonObj["ID"]);
 
   divMain.classList.add("mainListeItem");
-  spanIncontournable.classList.add("attributs");
+  spanIncontournable.classList.add("attributs","incontournable");
   spanPeople.classList.add("attributs");
   spanPlanet.classList.add("attributs");
   spanProsperity.classList.add("attributs");

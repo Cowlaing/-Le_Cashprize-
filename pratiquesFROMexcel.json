@@ -95,7 +95,7 @@
       "criteres": "Les matériels utilisateurs sont-ils identifiés ?",
       "cycleVie": "Conception",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "STRATEGIE",
@@ -132,7 +132,7 @@
       "criteres": "La solution retenue est-elle la plus respectueuse de l'environnement? Sinon, ce choix est-il justifié par le besoin utilisateur?",
       "cycleVie": "Conception",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Oui = 100 ; Partiel = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -167,7 +167,7 @@
       "criteres": "Les gains NR sont-ils évalués en préalable du projet ?",
       "cycleVie": "Conception",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -448,7 +448,7 @@
       "criteres": "Les données ACV sont-elles réutilisées dans le cas d'une adaptation d'un service existant ?",
       "cycleVie": "Revalorisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -485,7 +485,7 @@
       "people": "people-C",
       "prosperity": "prosperity-B",
       "criteres": "Comment sont gérées les phases de fin de vie, dès le début ou à la fin d'un projet ?",
-      "cycleVie": "type",
+      "cycleVie": "FinDeVie",
       "type": "CONSEIL",
       "miseEnOeuvre": "difficulty-N/A"
     },
@@ -509,7 +509,7 @@
       "criteres": "Lors d'un audit, les éléments suivants sont-ils appréhendés ? A quel moment je gâche de l'énergie dans mon service ? Quels sont les pages/parcours utilisateurs en trop ou inutiles qui devraient donc être nettoyées ? ",
       "cycleVie": "Utilisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Parcours analysés",
       "yIndicateurs": "Parcours user"
     },
@@ -522,7 +522,7 @@
       "criteres": "Les indicateurs pour mesurer l'efficacité de ma démarche NR sont-ils identifiés et suivis ?",
       "cycleVie": "Administration",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -544,7 +544,7 @@
       "people": "people-B",
       "prosperity": "prosperity-B",
       "criteres": "La durée de vie du projet est-elle définie ?",
-      "cycleVie": "type",
+      "cycleVie": "FinDeVie",
       "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE"
     },
@@ -757,7 +757,7 @@
       "criteres": "Les données ACV sont-elles réutilisées dans le cas d'une adaptation d'un service existant ?",
       "cycleVie": "Revalorisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -814,7 +814,7 @@
       "criteres": "Les profils cibles sont-ils définis ?",
       "cycleVie": "Conception",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "SPECIFICATIONS",
@@ -907,7 +907,7 @@
       "criteres": "Les processus d'intégration continue ne génèrent-ils pas des brèches dans la prise en compte des aspects NR ?",
       "cycleVie": "Déploiement",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -931,7 +931,7 @@
       "criteres": "L'état des lieux des données d'entrée est-il mis à disposition afin d'être réutilisé dans d'autres projets?",
       "cycleVie": "Revalorisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "SPECIFICATIONS",
@@ -955,7 +955,7 @@
       "criteres": "Chaque fonction principale ou secondaire du service est-elle appréhendée en regard de son importance dans le service ?",
       "cycleVie": "Conception",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "SPECIFICATIONS",
@@ -979,7 +979,7 @@
       "criteres": "Les cas d'exclusion de chaque fonctionnalité sont-ils adressés et des alternatives proposées ?",
       "cycleVie": "Acquisition",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "SPECIFICATIONS",
@@ -1034,7 +1034,7 @@
       "criteres": "Les aspects réglementaires de l'accessibilité sont-ils pris en compte ?",
       "cycleVie": "Utilisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "SPECIFICATIONS",
@@ -1045,7 +1045,7 @@
       "criteres": "Le service est-il conforme au RGPD ?",
       "cycleVie": "Utilisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -1058,7 +1058,7 @@
       "criteres": "La sécurité est-elle adaptée à la valeur de mes données ?",
       "cycleVie": "Administration",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -1108,7 +1108,7 @@
       "criteres": "Avez-vous identifié des indicateurs de performance pour le suivi du cycle de vie ?",
       "cycleVie": "Administration",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "SPECIFICATIONS",
@@ -1183,7 +1183,7 @@
       "people": "people-B",
       "prosperity": "prosperity-A",
       "criteres": "Les données et procédures spécifiées ont-elles toutes une information de fin de vie ?\n",
-      "cycleVie": "type",
+      "cycleVie": "FinDeVie",
       "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
@@ -1197,7 +1197,7 @@
       "people": "people-B",
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que le produit cible à une durée de vie déterminée ?",
-      "cycleVie": "type",
+      "cycleVie": "FinDeVie",
       "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
@@ -1245,7 +1245,7 @@
       "criteres": "Les fonctions secondaires ont-elles aussi un impact moindre sur l'impact environnemental ?",
       "cycleVie": "Conception",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -1258,7 +1258,7 @@
       "criteres": "Les fournisseurs de solutions et prestataires de service sont-ils sélectionnés sur leur capacité à respecter un cahier des charges NR ?",
       "cycleVie": "Acquisition",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Composantes NR",
       "yIndicateurs": "Achats externes"
     },
@@ -1293,7 +1293,7 @@
       "criteres": "Est-ce que les postes de travail font l'objet d'une gestion de cycle de vie ?",
       "cycleVie": "Utilisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -1332,7 +1332,7 @@
       "criteres": "Dans les ressources techniques du projet est-ce que les gestions de dépendances sont prises en compte, pour limiter l'obésité des solutions techniques employées?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Analyses de dépendances",
       "yIndicateurs": "Solutions techniques"
     },
@@ -1433,7 +1433,7 @@
       "criteres": "Les améliorations NR sont-elles  identifiées et systématiquement planifiées ?",
       "cycleVie": "Maintenance",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Composantes NR",
       "yIndicateurs": "Améliorations"
     },
@@ -1446,7 +1446,7 @@
       "criteres": "Pour les aspects NR les responsables projet (chef de projet, product owner ....) ont-ils les mêmes prérogatives que les aspects métiers?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; Arbitrés = 75 ; Possibles = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -1459,7 +1459,7 @@
       "criteres": "La production des livrables (production documentaire comprise) est-elle utilisée en amont du projet et est-elle produite pour permettre d'être réutilisée dans les projets suivants ?",
       "cycleVie": "Revalorisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "UX/UI",
@@ -1495,7 +1495,7 @@
       "criteres": "Les différentes étapes du projet sont-elles identifiées avec leur process de validation, afin de faire adhérer les parties prenantes à la démarche itérative ? ",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -1552,7 +1552,7 @@
       "criteres": "\nQuelles solutions sont déployées pour lutter contre l'illectronisme et simplifier les usages et services ?",
       "cycleVie": "Conception",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -1565,7 +1565,7 @@
       "criteres": "Les critères technologiques, sociaux, physiques, temporels qui permettent à vos utilisateurs d'atteindre leur but et limiter la fracture numérique, sont-ils pris en compte ?",
       "cycleVie": "Conception",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -1640,7 +1640,7 @@
       "criteres": "Dès la conception, le service répond-t-il aux normes d'accessibilité en vigueur (au minimum) ?",
       "cycleVie": "Conception",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -1681,7 +1681,7 @@
       "criteres": "Est-ce que les fonctionnalités sont utilisées par l'utilisateur ?",
       "cycleVie": "Utilisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Validations d'utilisation",
       "yIndicateurs": "Fonctionnalités"
@@ -1708,7 +1708,7 @@
       "criteres": "Une politique / démarche / une routine de réduction et de priorisation progressive des fonctionnalités, interactions et éléments graphiques, est-elle mise en place ?",
       "cycleVie": "Maintenance",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -1741,9 +1741,9 @@
       "people": "people-C",
       "prosperity": "prosperity-B",
       "criteres": "Un planning d'archivage et une version allégée des contenus anciens consultables sont-ils mis en oeuvre ?",
-      "cycleVie": "type",
+      "cycleVie": "FinDeVie",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Volume supprimé",
       "yIndicateurs": "Volume des contenus inactifs"
     },
@@ -1835,7 +1835,7 @@
       "criteres": "La dématérialisation du service est-elle complète, et dans le cas où la production de documents papier est indispensable, est-elle conçue pour limiter son impact au minimum ?",
       "cycleVie": "Utilisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -1848,7 +1848,7 @@
       "criteres": "L'utilisateur peut-il controler l'activation de solutions tierces ?",
       "cycleVie": "Utilisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -1872,7 +1872,7 @@
       "criteres": "Est-ce que la solution a été prototypée en amont, avec le parcours utilisateur et les interactions ?",
       "cycleVie": "Conception",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "UX/UI",
@@ -1883,7 +1883,7 @@
       "criteres": "Le comportement et le feedback utilisateur ont-ils été étudiés pour répondre au mieux à leurs besoins ?",
       "cycleVie": "Utilisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "UX/UI",
@@ -1907,7 +1907,7 @@
       "criteres": "Est-ce que les recherches les plus fréquentes ont été étudiées et adressées pour qu'elles soient ou mises en cache ou affichées à l'utilisateur sans envoi de requête ou clics inutiles.",
       "cycleVie": "Utilisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Sollicitation des caches",
       "yIndicateurs": "Requètes de recherche"
     },
@@ -1931,7 +1931,7 @@
       "criteres": "Une démarche d'amélioration continue a-t-elle été mise en place ?",
       "cycleVie": "Maintenance",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -1944,7 +1944,7 @@
       "criteres": "Est ce que la fonctionnalité peut être proposée sans l'appel de scripts ou de bibliothèques externes (JS, AJAX, ...) ?",
       "cycleVie": "Conception",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Fonctionnalités analysées",
       "yIndicateurs": "Fonctionnalités candidates"
     },
@@ -1996,7 +1996,7 @@
       "criteres": "Est-ce que les fonctionnalités et composants natifs du système peuvent correspondre au besoin ?",
       "cycleVie": "Conception",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Fonctionnalités analysées",
       "yIndicateurs": "Fonctionnalités candidates"
     },
@@ -2046,7 +2046,7 @@
       "criteres": "La notification de toutes les interactions machine / utilisateur ont-elles été prises en compte pour donner systématiquement à l'utilisateur le résultat de ses actions et gérer les erreurs ?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Interactions analysées",
       "yIndicateurs": "Interactions utilisateurs"
     },
@@ -2105,7 +2105,7 @@
       "criteres": "Le service évite-t-il les Dark Patterns ?",
       "cycleVie": "Conception",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "incontournable": "INCONTOURNABLE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
@@ -2144,7 +2144,7 @@
       "criteres": "Est-ce que les publicités sont bien identifiées comme telles et ont-elles une vraie valeur économique dans le service ?",
       "cycleVie": "Conception",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -2157,7 +2157,7 @@
       "criteres": "Dans quelle mesure l'attention de l'utilisateur est-elle contrôlée par le service ?",
       "cycleVie": "Utilisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "CONTENUS",
@@ -2168,7 +2168,7 @@
       "criteres": "Est-ce que les prestataires retenus pour la production des contenus ont un engagement NR, RSE, accessibilité (formations, inclusion, éthique) ?",
       "cycleVie": "Acquisition",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Engagements NR ou RSE",
       "yIndicateurs": "Prestataires"
     },
@@ -2353,7 +2353,7 @@
       "criteres": "Est-ce que le formulaire permet à l'utilisateur de désactiver les fonctions dynamiques (ex: auto completion)",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "CONTENUS",
@@ -2386,7 +2386,7 @@
       "criteres": "Lorsque des listes de sélection sont disponibles, sont-elles limitées aux valeurs pertinentes pour l'utilisateur du service ?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Listes analysées",
       "yIndicateurs": "Listes de sélections"
     },
@@ -2410,7 +2410,7 @@
       "criteres": "Est-ce que l'utilisation de Flash est supprimée, remplacée par un autre effet?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Appels flash supprimés",
       "yIndicateurs": "Appels flash"
     },
@@ -2423,7 +2423,7 @@
       "criteres": "Les contenus actifs sont-ils déclenchés uniquement sur action de l'utilisateur ?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Contenus analysés",
       "yIndicateurs": "Contenus actifs"
     },
@@ -2436,7 +2436,7 @@
       "criteres": "Est-ce que le contenu animé est sur la partie visible de l'écran (pas d'animation déclenchée sous la partie active de l'écran)",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Contenus analysés",
       "yIndicateurs": "Contenus actifs"
     },
@@ -2533,7 +2533,7 @@
       "criteres": "Est-ce que le son de la vidéo peut-être restitué sous forme texte ?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "CONTENUS",
@@ -2553,7 +2553,7 @@
       "people": "people-C",
       "prosperity": "prosperity-B",
       "criteres": "Chaque contenu vidéo est-il associé à une durée de vie ?",
-      "cycleVie": "type",
+      "cycleVie": "FinDeVie",
       "type": "CONSEIL",
       "miseEnOeuvre": "difficulty-N/A"
     },
@@ -2564,7 +2564,7 @@
       "people": "people-B",
       "prosperity": "prosperity-B",
       "criteres": "A t-on défini la proportion des contenus de type flux (contenus chauds de type actu...) et stock (contenus froid, longue traîne en SEO) ?",
-      "cycleVie": "type",
+      "cycleVie": "FinDeVie",
       "type": "CONSEIL",
       "miseEnOeuvre": "difficulty-N/A"
     },
@@ -2590,7 +2590,7 @@
       "criteres": "Les notifications utilisateurs sont-elles nécessaires et désactivables par l'utilisateur ?",
       "cycleVie": "Utilisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Notifications analysées",
       "yIndicateurs": "Notifications"
     },
@@ -2712,7 +2712,7 @@
       "criteres": "L'utilisateur peut-il personnaliser la fréquence et le périmètre des contenus diffusés ?",
       "cycleVie": "Utilisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -2750,7 +2750,7 @@
       "criteres": "Chaque composant peut-il faire l'objet de tests de \"Non Régression\" au niveau fonctionnel ? ",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "ARCHITECTURE",
@@ -2783,7 +2783,7 @@
       "criteres": "Des sondes existent-elles pour mesurer en production la consommation réelle du code et permettre un dimensionnement au plus juste ? ",
       "cycleVie": "Administration",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "ARCHITECTURE",
@@ -2794,7 +2794,7 @@
       "criteres": "Est-ce que l'hébergement des applications est densifié?",
       "cycleVie": "Déploiement",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -2821,7 +2821,7 @@
       "criteres": "Est-ce que les environnements de production non sollicités en dehors des pics de charge sont éteints ou décommissionnés?",
       "cycleVie": "Administration",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -2834,7 +2834,7 @@
       "criteres": "Les définitions des SLA et QoS pour chacune des fonctions de l'architecture applicative sont-elles spécifiées en accord avec les usages métiers ?",
       "cycleVie": "Déploiement",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -2847,7 +2847,7 @@
       "criteres": "Le service numérique reste-t-il efficace pendant toute sa durée de vie effective ?",
       "cycleVie": "Déploiement",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -2858,7 +2858,7 @@
       "people": "people-B",
       "prosperity": "prosperity-B",
       "criteres": "Est ce que les contraintes légales liées à la persistance des données ont été analysées et les règles et délais d'oubli spécifiés ? La durée de vie des données a-t-elle fait l'objet d'une étude approfondie ? Les durées légales ont-elle été analysées ?",
-      "cycleVie": "type",
+      "cycleVie": "FinDeVie",
       "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
@@ -2873,7 +2873,7 @@
       "criteres": "Est-ce que la stratégie de stockage minimise les infrastructures ou la duplication des données par rapport à leur criticité ?",
       "cycleVie": "Déploiement",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -2991,7 +2991,7 @@
       "criteres": "Le protocole de communication choisi est-il situé dans la phase ascendante, stable ou descendante de son utilisation par rapport à des contraintes de performance, de sécurité, d'obligations légales ?",
       "cycleVie": "Acquisition",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "ARCHITECTURE",
@@ -3035,7 +3035,7 @@
       "criteres": "L'architecture est-elle modulaire ? Permet-elle de recycler des composants déjà développés pour d'autres projets (authentification, référentiels de données, API, etc.) ?",
       "cycleVie": "Revalorisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -3048,7 +3048,7 @@
       "criteres": "L'architecture est-elle granulaire  et les interfaces sont-elles cohérentes pour respecter l'indépendance de chaque entité ? ",
       "cycleVie": "Revalorisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -3072,7 +3072,7 @@
       "criteres": "Un cache est-il mis en place entre les différents composants du SI pour limiter les échanges sur le réseau, lorsque la nature des données le permet ?",
       "cycleVie": "Utilisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -3107,7 +3107,7 @@
       "criteres": "Est-ce que l'application minimise les données devant être échangées avec d'autres applications ou les utilisateurs avec l'utilisation d'une matrice de flux ?",
       "cycleVie": "Conception",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -3118,7 +3118,7 @@
       "people": "people-B",
       "prosperity": "prosperity-B",
       "criteres": "Chaque composant déployé est-il qualifié du point de vue de sa durée de vie, et les procédures de déprovisonnement sont-elles systématiquement exprimées ?",
-      "cycleVie": "type",
+      "cycleVie": "FinDeVie",
       "type": "RECOMMANDATION",
       "miseEnOeuvre": "FACILE",
       "incontournable": "INCONTOURNABLE",
@@ -3356,7 +3356,7 @@
       "criteres": "Chaque fonction du service est-elle appréhendée en regard de son importance dans le service ?",
       "cycleVie": "Conception",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "ARCHITECTURE",
@@ -3389,7 +3389,7 @@
       "criteres": "Les données ACV sont-elles réutilisées dans le cas d'une adaptation d'un service existant ?",
       "cycleVie": "Revalorisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Oui = 100 ; Partiel = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -3400,7 +3400,7 @@
       "people": "people-B",
       "prosperity": "prosperity-A",
       "criteres": "La durée du support du service numérique est-elle suffisante pour minimiser le renouvellement des équipements ?",
-      "cycleVie": "type",
+      "cycleVie": "FinDeVie",
       "type": "CONSEIL",
       "miseEnOeuvre": "difficulty-N/A"
     },
@@ -3446,7 +3446,7 @@
       "criteres": "Les objectifs Numérique Responsable sont-ils qualifiés pour chaque type de public dans le design d'architecture ?",
       "cycleVie": "N/A",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "ARCHITECTURE",
@@ -3479,7 +3479,7 @@
       "criteres": "Est-ce que les fonctions proposées sont bien en rapport avec un usage ?",
       "cycleVie": "Utilisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Fonctionnalités validées",
       "yIndicateurs": "Fonctionnalités"
     },
@@ -3514,7 +3514,7 @@
       "criteres": "Utilisez-vous des standards de développement éprouvés ?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -3538,7 +3538,7 @@
       "criteres": "Les données ACV sont-elles réutilisées dans le cas d'une adaptation d'un service existant ?",
       "cycleVie": "Revalorisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -3595,7 +3595,7 @@
       "criteres": "Le public cible du service est-il déterminé vis-à-vis de ses capacités d'utilisation du service ?",
       "cycleVie": "Utilisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "FRONTEND",
@@ -3606,7 +3606,7 @@
       "criteres": "Utilisez vous les mécanismes de cache pour limiter les échanges ?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -3633,7 +3633,7 @@
       "criteres": "Est-ce que les données remontées par les API sont bien uniquement celles dont l'application a besoin au moment où elles sont demandées ?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Données API analysées",
       "yIndicateurs": "Données API collectées"
     },
@@ -3683,7 +3683,7 @@
       "criteres": "Est-ce que la fonctionnalité attendue ne pourrait pas être mise en place avec les capacités natives du navigateur ?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "FRONTEND",
@@ -3785,7 +3785,7 @@
       "criteres": "Est-ce que les équipements plus anciens resteront compatibles, et dans quelles limites ?",
       "cycleVie": "Utilisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -3867,7 +3867,7 @@
       "criteres": "Limitez-vous les flux échangés ?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -3902,7 +3902,7 @@
       "criteres": "Est-ce qu'il y a des fichiers en double ?",
       "cycleVie": "Administration",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Fichiers uniques",
       "yIndicateurs": "Fichiers"
     },
@@ -3928,7 +3928,7 @@
       "criteres": "Les capteurs sont-ils sollicités au besoin réel, plutôt qu'en permanence ?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Capteurs mis en oeuvre à la demande",
       "yIndicateurs": "Capteurs référencés"
     },
@@ -4072,7 +4072,7 @@
       "criteres": "Le service est-il adapté aux différents formats de support d'accessibilité ?",
       "cycleVie": "Utilisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "FRONTEND",
@@ -4083,7 +4083,7 @@
       "criteres": "Les différents formats d'images disponibles ont-ils été évalués pour ne retenir que le plus efficace ?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Images analysées",
       "yIndicateurs": "Images"
     },
@@ -4155,7 +4155,7 @@
       "criteres": "La mise en forme en css est-elle privilégiée, pour limiter l'usage des images ?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Images analysées",
       "yIndicateurs": "Images"
     },
@@ -4217,7 +4217,7 @@
       "criteres": "Les vidéos ou animations hors de la zone active sont-elles automatiquement mises en pause / stoppées ?",
       "cycleVie": "Utilisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Vidéos analysées",
       "yIndicateurs": "Vidéos"
     },
@@ -4263,7 +4263,7 @@
       "criteres": "En cas d'impression, une police permettant l'économie d'encre est-elle mise en place ?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -4276,7 +4276,7 @@
       "criteres": "Est-ce que les polices utilisées ne sont pas chargées uniquement pour un nombre réduit d'objets ?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Polices analysées",
       "yIndicateurs": "Polices"
     },
@@ -4313,7 +4313,7 @@
       "criteres": "Une alternative CSS est-elle disponible pour une animation ?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Animations analysées",
       "yIndicateurs": "Animations"
     },
@@ -4387,7 +4387,7 @@
       "criteres": "Est-ce que les requêtes implémentées utilisent les jointures plutôt que de multiplier les requêtes ? \n",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "BACKEND",
@@ -4407,9 +4407,9 @@
       "people": "people-C",
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que la suppression des données obsolètes est gérée ?",
-      "cycleVie": "type",
+      "cycleVie": "FinDeVie",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -4422,7 +4422,7 @@
       "criteres": "Est-ce que les index des bases de données sont cohérents par rapport aux opérations ?",
       "cycleVie": "Administration",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -4488,7 +4488,7 @@
       "people": "people-C",
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les données \"vivantes\" et \"mortes\" sont gérées de manière différentes (ex: Stockage lent pour les données \"mortes\") ?",
-      "cycleVie": "type",
+      "cycleVie": "FinDeVie",
       "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
@@ -4503,7 +4503,7 @@
       "criteres": "Est-ce que les données souvent accédées sont disponibles en RAM ?",
       "cycleVie": "Administration",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "BACKEND",
@@ -4525,9 +4525,9 @@
       "people": "people-C",
       "prosperity": "prosperity-B",
       "criteres": "Les données ont-elles une date d'expiration à laquelle elles sont supprimées ?",
-      "cycleVie": "type",
+      "cycleVie": "FinDeVie",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -4566,7 +4566,7 @@
       "criteres": "Est-ce que l'API fournit des limites, des filtres et la liste des champs à retourner ?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Données API analysées",
       "yIndicateurs": "Données API collectées"
     },
@@ -4579,7 +4579,7 @@
       "criteres": "Est-ce que les données sensibles des utilisateurs sont sécurisées ?",
       "cycleVie": "Déploiement",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Données sensibles analysées",
       "yIndicateurs": "Données sensibles"
     },
@@ -4656,7 +4656,7 @@
       "people": "people-B",
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que les ressources inutilisées sont bien libérées au plus vite ?",
-      "cycleVie": "type",
+      "cycleVie": "FinDeVie",
       "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
@@ -4682,7 +4682,7 @@
       "criteres": "La disponibilité du service nécessite-t-elle une redondance ?",
       "cycleVie": "Déploiement",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -4695,7 +4695,7 @@
       "criteres": "Les interactions entre les composants bénéficient-ils de systèmes de cache ?",
       "cycleVie": "Déploiement",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -4708,7 +4708,7 @@
       "criteres": "Est-ce que le framework ou la technologie utilisée ne bloque pas les caches navigateur ?",
       "cycleVie": "Acquisition",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "BACKEND",
@@ -4752,7 +4752,7 @@
       "criteres": "Est-ce que la sécurisation implémentée est justifiée au regard des opérations réalisées ?",
       "cycleVie": "Déploiement",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -4817,7 +4817,7 @@
       "criteres": "Est-ce que la pagination est utilisée sur les échanges de données ?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Données API analysées",
       "yIndicateurs": "Données API échangées"
     },
@@ -4830,7 +4830,7 @@
       "criteres": "Est-ce que le nombre de requêtes entre le client et le serveur est minimisé ?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Requètes analysées",
       "yIndicateurs": "Requètes BO"
     },
@@ -4843,7 +4843,7 @@
       "criteres": "Est-ce que les données échangées correspondent uniquement au besoin immédiat ?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Données API analysées",
       "yIndicateurs": "Données API échangées"
     },
@@ -4856,7 +4856,7 @@
       "criteres": "Les notifications utilisateurs sont-elles nécessaires ?",
       "cycleVie": "Utilisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Notifications analysées",
       "yIndicateurs": "Notifications"
     },
@@ -4972,7 +4972,7 @@
       "criteres": "Est-ce que la cartographie des traitements (RGPD) est disponible ?",
       "cycleVie": "Conception",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "BACKEND",
@@ -4994,7 +4994,7 @@
       "criteres": "Est-ce que le RGAA est pris en compte ?",
       "cycleVie": "Conception",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "BACKEND",
@@ -5005,7 +5005,7 @@
       "criteres": "Est-ce que les données réglementées (bancaires, santé, ...)  sont sécurisées ?",
       "cycleVie": "Déploiement",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "BACKEND",
@@ -5098,7 +5098,7 @@
       "criteres": "Le dimensionnement des ressources d'infrastructures suit-il la vie de l'application ?",
       "cycleVie": "Administration",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -5111,7 +5111,7 @@
       "criteres": "Est-ce que l'architecture technique est en permanence en rapport avec l'activité du service ?",
       "cycleVie": "Administration",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -5133,9 +5133,9 @@
       "people": "people-C",
       "prosperity": "prosperity-A",
       "criteres": "Est-ce que les opérations de dé-provisionnement sont exprimées lors de la conception ?",
-      "cycleVie": "type",
+      "cycleVie": "FinDeVie",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -5196,7 +5196,7 @@
       "criteres": "Chacune des phases du cycle de vie sont-elles identifiées avec des actions spécifiques ?",
       "cycleVie": "Administration",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "BACKEND",
@@ -5207,7 +5207,7 @@
       "criteres": "Les données ACV sont-elles réutilisées dans le cas d'une adaptation d'un service existant ?",
       "cycleVie": "Revalorisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "HEBERGEMENT",
@@ -5251,7 +5251,7 @@
       "criteres": "L'eau utilisée ne provient-elle pas du réseau d'eau potable ?",
       "cycleVie": "Utilisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -5428,7 +5428,7 @@
       "criteres": "Le matériel provient-il d'entreprises réputées comme respectant le code du travail ?",
       "cycleVie": "Acquisition",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "HEBERGEMENT",
@@ -5439,7 +5439,7 @@
       "criteres": "Est-ce que les équipements sont fabriqués par des entreprises respectueuses de l'environnement ?",
       "cycleVie": "Acquisition",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "HEBERGEMENT",
@@ -5450,7 +5450,7 @@
       "criteres": "Les serveurs / routeurs sont-ils éteints quand ils sont inutilisés ?",
       "cycleVie": "Déploiement",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -5548,7 +5548,7 @@
       "criteres": "La haute disponibilité est-elle conçue de manière modulaire?",
       "cycleVie": "Déploiement",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -5559,7 +5559,7 @@
       "people": "people-B",
       "prosperity": "prosperity-B",
       "criteres": "Le provisionning / deprovisionning est-il dynamique en fonction de la charge ?",
-      "cycleVie": "type",
+      "cycleVie": "FinDeVie",
       "type": "RECOMMANDATION",
       "miseEnOeuvre": "DIFFICILE",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
@@ -5574,7 +5574,7 @@
       "criteres": "Est-ce que les solutions de stockage permettent de réduire le nombre de composants (par exemple: supports SSD haute densité) ?",
       "cycleVie": "Administration",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -5670,7 +5670,7 @@
       "people": "people-B",
       "prosperity": "prosperity-B",
       "criteres": "Est-ce que les serveurs et routeurs sont renouvelés lorsque les technologies permettent une meilleure efficacité énergétique ?",
-      "cycleVie": "type",
+      "cycleVie": "FinDeVie",
       "type": "CONSEIL",
       "miseEnOeuvre": "difficulty-N/A"
     },
@@ -5683,7 +5683,7 @@
       "criteres": "Est-ce que les matériaux de construction / gaine / isolant utilisés permettent une meilleure efficacité énergétique. Le bâtiment répond-t-il aux normes HQE , rt2012 ou équivalentes ?",
       "cycleVie": "Réalisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "HEBERGEMENT",
@@ -5845,7 +5845,7 @@
       "criteres": "Les processus mis en place pour la prévention des incidents prennent-ils en compte la non-dégradation des serveurs et équipements ?",
       "cycleVie": "Maintenance",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE",
+      "miseEnOeuvre": "MOYEN",
       "xIndicateurs": "Oui = 100 ; Partiel = 50 ; Non = 0",
       "yIndicateurs": 100
     },
@@ -5869,7 +5869,7 @@
       "criteres": "Chacune des phases du cycle de vie sont-elles identifiées avec des actions spécifiques ?",
       "cycleVie": "Administration",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     },
     {
       "famille": "HEBERGEMENT",
@@ -5880,7 +5880,7 @@
       "criteres": "Les données des études précédentes sont-elles disponibles et tenues à jour ?",
       "cycleVie": "Revalorisation",
       "type": "RECOMMANDATION",
-      "miseEnOeuvre": "MODEREE"
+      "miseEnOeuvre": "MOYEN"
     }
   ]
 }

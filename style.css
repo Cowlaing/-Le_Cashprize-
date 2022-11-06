@@ -300,6 +300,7 @@ span {
     font-size: 14px;
     font-variant: small-caps;
     text-transform: lowercase;
+    font-weight: bold;
 }
 
 .attributs {
@@ -312,4 +313,46 @@ span {
 h3 {
     font-size: 1rem;
     margin: 0;
+}
+
+
+/*----------------STYLE PROJET.PHP--------------*/
+h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: rgb(124,93,186, 1);
+}
+.menu {
+    color: rgb(44, 37, 70, 1);
+    padding: 0.3rem 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.4rem;
+    justify-content: center;
+}
+.menu:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(124,93,186, 1);
+}
+.style {
+    border-bottom: 3px solid #7c5dba;
+    border-top: 4px solid #2c2546;
+}
+.ul-decalage {
+    margin-left: 2vw;
+}
+.viderPanier {
+    text-align: center;
+}
+.traith1 {
+    border-style: dashed;
+    border-right: 6px solid #bebdc0;
+    border-left: 6px solid #7c5dba;
+    border-bottom: 10px solid #2c2546;
+    border-top: 10px solid #2c2546;
+    height: auto;
+    display: inline-block;
 }

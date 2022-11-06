@@ -149,8 +149,8 @@
                   <label for="difficulty-facile">Facile</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="type[]" id="difficulty-mid" value="difficulty-mid" onclick="gestionFiltre('MODEREE')">
-                  <label for="difficulty-mid">Modérée</label>
+                  <input type="checkbox" name="type[]" id="difficulty-mid" value="difficulty-mid" onclick="gestionFiltre('MOYEN')">
+                  <label for="difficulty-mid">Moyen</label>
                 </li>
                 <li>
                   <input type="checkbox" name="type[]" id="difficulty-hard" value="difficulty-hard" onclick="gestionFiltre('DIFFICILE')">

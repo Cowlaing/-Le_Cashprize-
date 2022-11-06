@@ -17,34 +17,89 @@ if (localStorage.getItem("panier") != null) {
   panier = Array.from(JSON.parse(localStorage.getItem("panier")));
 }
 
-function afficheArticle(element) {
-  //Recuperation de la table
-  let table = document.getElementById("corps-tableau-panier");
-  //Creation de la ligne
-  let newTr = document.createElement("tr");
-  //Creation des colonnes
-  let idTd = document.createElement("td");
-  let famTd = document.createElement("td");
-  let descTd = document.createElement("td");
+function afficheArticle(jsonObj) {
+  let ul;
+  /*
+  If|Else → ordre décroissant du nombre de critère par type CYCLE DE VIE : 
+  N/A			        23
+  Acquisition	    53
+  Conception	    82
+  Réalisation	    93
+  Déploiement	    48
+  Administration	45
+  Utilisation	    88
+  Maintenance		  16
+  Fin de Vie		  17
+  Revalorisation	26
 
-  //Ajout de classe, utile pour le css
-  idTd.id = element["ID"];
-  idTd.classList.add("id", element["famille"]);
-  famTd.classList.add("famille", element["famille"]);
-  descTd.classList.add("description", element["famille"]);
+ICI "fin de vie" marche pas → on le met en ELSE
+*/
+  if (jsonObj["cycleVie"] === "Réalisation") {
+    ul = document.getElementById("rea");
+  } else if (jsonObj["cycleVie"] === "Utilisation") {
+    ul = document.getElementById("util");
+  } else if (jsonObj["cycleVie"] === "Conception") {
+    ul = document.getElementById("concep");
+  } else if (jsonObj["cycleVie"] === "Acquisition") {
+    ul = document.getElementById("acqui");
+  } else if (jsonObj["cycleVie"] === "Déploiement") {
+    ul = document.getElementById("deploi");
+  } else if (jsonObj["cycleVie"] === "Administration") {
+    ul = document.getElementById("admi");
+  } else if (jsonObj["cycleVie"] === "Revalorisation") {
+    ul = document.getElementById("revalo");
+  } else if (jsonObj["cycleVie"] === "N/A") {
+    ul = document.getElementById("N/A");
+  } else if (jsonObj["cycleVie"] === "Maintenance") {
+    ul = document.getElementById("maintenance");
+  } else {
+    //FIN DE VIE
+    ul = document.getElementById("end");
+  }
 
-  //Remplissage des cases
-  idTd.textContent = element["ID"];
-  famTd.textContent = element["famille"];
-  descTd.textContent = element["criteres"];
+  ul.classList.add("ul-decalage");
+  let li = document.createElement("li");
+  let article = document.createElement("article");
+  let divArticle = document.createElement("div");
+  /*form.setAttribute("data-screen-only",""); INDICATEURS*/
+  let spanLigne = document.createElement("span");
+  let spanAttributs = document.createElement("span");
+  let spanIncontournable = document.createElement("span");
+  let spanPeople = document.createElement("span");
+  let spanPlanet = document.createElement("span");
+  let spanProsperity = document.createElement("span");
+  let spanDifficulty = document.createElement("span");
 
-  //Ajout de Id -> Famille -> Ddescription dans la ligne
-  newTr.appendChild(idTd);
-  newTr.appendChild(famTd);
-  newTr.appendChild(descTd);
+  let critere = document.createElement("h3");
+  let hrLIGNE = document.createElement("hr");
+  //donne l'id au bloc
+  li.setAttribute("id", jsonObj["ID"]);
+  li.classList.add("LiListeItem");
 
-  //Ajout de la ligne dans le tableau
-  table.appendChild(newTr);
+  spanIncontournable.classList.add("attributs");
+  spanPeople.classList.add("attributs");
+  spanPlanet.classList.add("attributs");
+  spanProsperity.classList.add("attributs");
+  spanDifficulty.classList.add("attributs");
+  //Creation des textes des éléments
+  spanLigne.textContent = jsonObj["type"] + " " + jsonObj["famille"];
+  spanPeople.textContent = jsonObj["people"];
+  spanPlanet.textContent = jsonObj["planet"];
+  spanProsperity.textContent = jsonObj["prosperity"];
+  spanDifficulty.textContent = jsonObj["miseEnOeuvre"];
+  critere.textContent = jsonObj["criteres"];
+
+  //Structuration
+  ul.appendChild(li);
+  li.appendChild(article);
+  article.appendChild(divArticle);
+  divArticle.appendChild(spanLigne);
+  spanLigne.appendChild(spanAttributs);
+  spanAttributs.appendChild(spanPeople);
+  spanAttributs.appendChild(spanPlanet);
+  spanAttributs.appendChild(spanProsperity);
+  spanAttributs.appendChild(spanDifficulty);
+  divArticle.appendChild(critere);
 }
 
 //pour afficher
@@ -59,18 +114,18 @@ function affichePanier() {
     }
   }
   //affichage CRITERES INCONTOURNABLES :
-  for (var i = 0; i < indexIncontournable.length; i++) { 
+  for (var i = 0; i < indexIncontournable.length; i++) {
     afficheArticle(prat[indexIncontournable[i]]);
   }
 
   //ajout critères manuellement LOCALSTORAGE
   var panierSauv = Array.from(JSON.parse(localStorage.getItem("panier")));
-  for (var i = 0; i < panierSauv.length; i++) { 
+  for (var i = 0; i < panierSauv.length; i++) {
     afficheArticle(prat[panierSauv[i]]);
   }
 }
 
 function vider() {
-    localStorage.clear();
-    location.reload();
+  localStorage.clear();
+  location.reload();
 }

@@ -158,22 +158,7 @@
                 </li>
               </ul>
             </fieldset>
-
-
-
-
-
-
-            <div>
-              <p>charte graphique</p>
-              <div class="graphique1">.</div>
-              <div class="graphique2">.</div>
-              <div class="graphique3">.</div>
-              <div class="graphique4">.</div>
-              <div class="graphique5">.</div>
-            </div>
           </form>
-
         </div>
       </div>
       <article class="main">
@@ -191,8 +176,8 @@
     </div>
   </section>
 
-  <a href="#top" data-screen-only>
-    <button class="top"></button>
+  <a href="#top" name="Link to go to top" data-screen-only>
+    <button class="top" name="Button go to top"></button>
   </a>
   <!--Footer PHP-->
   <?php include 'footer.php';  ?>

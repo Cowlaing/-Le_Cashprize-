@@ -6,33 +6,7 @@ Gris : #bebdc0 | rgb(190,189,192, 1)
 Blanc : #fcfbfc | rgb(252,251,252, 1)
 
 */
-.graphique1 {
-    background-color: #f0ad26;
-    /*bouton hover + background impacts (opacité modifiée !)*/
-}
-
-.graphique2 {
-    background-color: #7c5dba;
-    /*bouton normal*/
-}
-
-.graphique3 {
-    background-color: #2c2546;
-    /* text titre ? + bouton quandséléctionné*/
-}
-
-.graphique4 {
-    background-color: #bebdc0;
-    /**/
-}
-
-.graphique5 {
-    background-color: #fcfbfc;
-    /*background*/
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@font-face { font-family: 'Roboto'; font-display: swap; src: url(chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf)}
 @media screen and (min-width: 1050px) {
     .columns {
         display: flex;

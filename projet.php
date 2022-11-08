@@ -7,9 +7,11 @@
     <meta name="description" content="Sélectionnez vos critères écoresponsable et créer votre projet !">
     <meta name="keywords" content="eco-conception, bonnes pratiques">
     <meta name="author" content="Le Cashprize D4G2021">
+    <meta name="theme-color" content="#7c5dba"/>
     <title>D4G2021 - Projet - Le Cashprize team</title>
     <link rel="stylesheet" type="text/css" href="style.css" media="screen">
     <link rel="stylesheet" type="text/css" href="print.css" media="print">
+    <link rel="preload" href="Roboto-Regular.ttf" as="font" type="font/ttf" crossorigin>
 </head>
 
 <body id="top">
@@ -73,51 +75,51 @@
                 <p class="titre">Voici la liste des bonnes pratiques que vous avez rentré dans votre panier.</p>
 
                 <!--Liste des catégories de pratiques-->
-                <h4 id="0">Acquisition</h4>
+                <h2 id="0" class="criteres">Acquisition</h2>
                 <ul id="acqui">
 
                 </ul>
-                <h4 id="1">Conception</h4>
+                <h2 id="1" class="criteres">Conception</h2>
                 <ul id="concep">
 
                 </ul>
-                <h4 id="2">Réalisation</h4>
+                <h2 id="2" class="criteres">Réalisation</h2>
                 <ul id="rea">
 
                 </ul>
-                <h4 id="3">Déploiement</h4>
+                <h2 id="3" class="criteres">Déploiement</h2>
                 <ul id="deploi">
 
                 </ul>
-                <h4 id="4">Administration</h4>
+                <h2 id="4" class="criteres">Administration</h2>
                 <ul id="admi">
 
                 </ul>
-                <h4 id="5">Utilisation</h4>
+                <h2 id="5" class="criteres">Utilisation</h2>
                 <ul id="util">
 
                 </ul>
-                <h4 id="6">Maintenance</h4>
+                <h2 id="6" class="criteres">Maintenance</h2>
                 <ul id="maintenance">
 
                 </ul>
-                <h4 id="7">Fin de Vie</h4>
+                <h2 id="7" class="criteres">Fin de Vie</h2>
                 <ul id="end">
 
                 </ul>
-                <h4 id="8">Revalorisation</h4>
+                <h2 id="8" class="criteres">Revalorisation</h2>
                 <ul id="revalo">
 
                 </ul>
-                <h4 id="9">N/A</h4>
+                <h2 id="9" class="criteres">N/A</h2>
                 <ul id="N/A">
 
                 </ul>
             </article>
     </section>
 
-    <a href="#top" data-screen-only>
-        <button class="top"></button>
+    <a href="#top" aria-label="Link to go to top" data-screen-only>
+        <button class="top" aria-label="Button go to top"></button>
     </a>
     <!--Footer PHP-->
     <?php include 'footer.php';  ?>

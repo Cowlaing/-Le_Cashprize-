@@ -7,9 +7,11 @@
   <meta name="description" content="Sélectionnez vos critères écoresponsable et créer votre projet !">
   <meta name="keywords" content="eco-conception, bonnes pratiques">
   <meta name="author" content="Le Cashprize D4G2021">
+  <meta name="theme-color" content="#7c5dba" />
   <title>D4G2021 - Le Cashprize team</title>
   <link rel="stylesheet" type="text/css" href="style.css" media="screen">
   <link rel="stylesheet" type="text/css" href="print.css" media="print">
+  <link rel="preload" href="Roboto-Regular.ttf" as="font" type="font/ttf" crossorigin>
 </head>
 
 <body id="top">
@@ -171,12 +173,12 @@
 
       </article>
 
-      
+
     </div>
   </section>
 
-  <a href="#top" name="Link to go to top" data-screen-only>
-    <button class="top" name="Button go to top"></button>
+  <a href="#top" aria-label="Link to go to top" data-screen-only>
+    <button class="top" aria-label="Button go to top"></button>
   </a>
   <!--Footer PHP-->
   <?php include 'footer.php';  ?>

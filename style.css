@@ -6,7 +6,7 @@ Gris : #bebdc0 | rgb(190,189,192, 1)
 Blanc : #fcfbfc | rgb(252,251,252, 1)
 
 */
-@font-face { font-family: 'Roboto'; font-display: swap; src: url(chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf)}
+@font-face { font-family: 'Roboto'; font-display: swap; src: local('Roboto'),local('Roboto-Regular'),url(chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf) format('ttf')}
 @media screen and (min-width: 1050px) {
     .columns {
         display: flex;
@@ -304,7 +304,7 @@ h3 {
 
 
 /*----------------STYLE PROJET.PHP--------------*/
-h4 {
+h2.criteres {
     font-size: 1.2rem;
     font-weight: bold;
     text-decoration: underline;

@@ -125,10 +125,13 @@ function affichePanier() {
   }
 
   //ajout critères manuellement LOCALSTORAGE
-  var panierSauv = Array.from(JSON.parse(localStorage.getItem("panier")));
-  for (var i = 0; i < panierSauv.length; i++) {
-    afficheArticle(prat[panierSauv[i]]);
+  if (localStorage.getItem("panier")!= null){
+    var panierSauv = Array.from(JSON.parse(localStorage.getItem("panier")));
+    for (var i = 0; i < panierSauv.length; i++) {
+      afficheArticle(prat[panierSauv[i]]);
+    }
   }
+  
 }
 
 function vider() {

@@ -9,7 +9,6 @@ var request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType = "json";
 request.send();
-var pratiques = request.response;
 
 request.onload = function () {
   //CHARGE LES PRATIQUES ICI
@@ -56,7 +55,7 @@ function affiche(jsonObj) {
   nouvLi.setAttribute("id", jsonObj["ID"]);
 
   divMain.classList.add("mainListeItem");
-  spanIncontournable.classList.add("attributs","incontournable");
+  spanIncontournable.classList.add("attributs", "incontournable");
   spanPeople.classList.add("attributs");
   spanPlanet.classList.add("attributs");
   spanProsperity.classList.add("attributs");
@@ -73,6 +72,8 @@ function affiche(jsonObj) {
   //Class bouton-ajouter et texte ajouter pour le bouton
 
   //Ajout des éléments dans le document
+  ul.appendChild(nouvLi);
+  nouvLi.appendChild(nouvArticle);
   nouvArticle.appendChild(divMain);
 
   divMain.appendChild(divText);
@@ -81,12 +82,12 @@ function affiche(jsonObj) {
   divText.appendChild(spanLigne);
 
   //SI critere INCONTOURNABLE :
-  if(jsonObj['incontournable']!=null){
+  if (jsonObj["incontournable"] != null) {
     spanIncontournable.textContent = jsonObj["incontournable"];
     spanAttributs.appendChild(spanIncontournable);
     input.value = "Bloqué";
     input.className = "bouton-bloque";
-  }else {
+  } else {
     //config bouton
     input.value = "Ajouter";
     input.classList.add("bouton-ajouter");
@@ -94,7 +95,6 @@ function affiche(jsonObj) {
       ajouterPanier(jsonObj["ID"]);
     });
   }
-  
 
   spanLigne.appendChild(spanAttributs);
   spanAttributs.appendChild(spanPeople);
@@ -105,18 +105,13 @@ function affiche(jsonObj) {
   //Configuration du bouton ajouter
   input.type = "button";
   input.setAttribute("data-screen-only", "");
-  
-
-  //Ajout du reste des éléments
-  nouvLi.appendChild(nouvArticle);
-  ul.appendChild(nouvLi);
 }
 
 function afficheTout(jsonObj) {
-  var prat = jsonObj["listePratiques"];
-  for (var i = 0; i < prat.length; i++) {
-    affiche(prat[i]);
-  }
+    var prat = jsonObj["listePratiques"];
+    for (var i = 0; i < prat.length; i++) {
+      affiche(prat[i]);
+    }
 }
 
 var afficheT = new Map();

@@ -8,7 +8,6 @@
   <meta name="keywords" content="eco-conception, bonnes pratiques">
   <meta name="author" content="Le Cashprize D4G2021">
   <title>D4G2021 - Le Cashprize team</title>
-  <link rel="shortcut icon" type="image/x-icon" href="images/planete2.png">
   <link rel="stylesheet" type="text/css" href="style.css" media="screen">
   <link rel="stylesheet" type="text/css" href="print.css" media="print">
 </head>

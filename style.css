@@ -38,6 +38,15 @@ Blanc : #fcfbfc | rgb(252,251,252, 1)
         overflow-y: auto;
         /*mettre la scroll bar*/
     }
+    .traith1 {
+        border-style: dashed;
+        border-right: 6px solid #bebdc0;
+        border-left: 6px solid #7c5dba;
+        border-bottom: 10px solid #2c2546;
+        border-top: 10px solid #2c2546;
+        height: auto;
+        display: inline-block;
+    }
 }
 
 * {
@@ -324,13 +333,4 @@ h4 {
 }
 .viderPanier {
     text-align: center;
-}
-.traith1 {
-    border-style: dashed;
-    border-right: 6px solid #bebdc0;
-    border-left: 6px solid #7c5dba;
-    border-bottom: 10px solid #2c2546;
-    border-top: 10px solid #2c2546;
-    height: auto;
-    display: inline-block;
 }

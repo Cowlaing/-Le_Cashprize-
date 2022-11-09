@@ -18,18 +18,18 @@
   <!--Header PHP-->
   <?php include 'header.php';  ?>
 
-  <!-- PARTIE GAUCHE -->
+  <!-- PARTIE GAUCHE | SELECTEUR -->
   <section class="container">
     <div class="columns">
       <div class="aside">
         <div class="component">
           <form class="content" data-screen-only>
             <h2 class="titre">Recherche</h2>
-            <!-- partie recherche
+            <!-- partie recherche : non aboutie
             <fieldset>
               <legend>Recherchez par nom</legend>
               <input type="text" id="search">
-            </fieldset>-->
+            </fieldset> -->
             <fieldset>
               <legend>Incontournables</legend>
               <ul id="liste_filtres">
@@ -162,21 +162,16 @@
           </form>
         </div>
       </div>
+      <!--PARTIE DROITE | CRITERES -->
       <article class="main">
         <h2 class="titre">491 critères</h2>
         <p class="titre">Sélectionnez les bonnes pratiques que vous souhaitez ajouter à votre projet parmis les 491 critères du référentiel INR.</p>
-
-        <ul id="ulp">
-          <!--ECRIRE ICI bonnes pratiques-->
-
-        </ul>
-
+        <ul id="ulp"><!--LISTE DES CRITERES--></ul>
       </article>
-
-
     </div>
   </section>
 
+  <!--Bouton top-->
   <a href="#top" aria-label="Link to go to top" data-screen-only>
     <button class="top" aria-label="Button go to top"></button>
   </a>

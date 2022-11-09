@@ -7,7 +7,7 @@
     <meta name="description" content="Sélectionnez vos critères écoresponsable et créer votre projet !">
     <meta name="keywords" content="eco-conception, bonnes pratiques">
     <meta name="author" content="Le Cashprize D4G2021">
-    <meta name="theme-color" content="#7c5dba"/>
+    <meta name="theme-color" content="#7c5dba" />
     <title>D4G2021 - Projet - Le Cashprize team</title>
     <link rel="stylesheet" type="text/css" href="style.css" media="screen">
     <link rel="stylesheet" type="text/css" href="print.css" media="print">
@@ -21,7 +21,7 @@
         <h2 class="titre">Projet</h2>
     </section>
 
-    <!-- PARTIE GAUCHE -->
+    <!-- PARTIE GAUCHE (SELECTION CRITERES) -->
     <section class="container">
         <div class="columns">
             <div class="aside">
@@ -69,55 +69,44 @@
                 </div>
             </div>
             <div class="traith1"></div>
-            <!--séparateur-->
+            <!--trait séparateur-->
             <article class="main">
                 <h2 class="titre">Les pratiques séléctionnées</h2>
                 <p class="titre">Voici la liste des bonnes pratiques que vous avez rentré dans votre panier.</p>
-
                 <!--Liste des catégories de pratiques-->
                 <h2 id="0" class="criteres">Acquisition</h2>
-                <ul id="acqui">
+                <ul id="acqui"></ul>
 
-                </ul>
                 <h2 id="1" class="criteres">Conception</h2>
-                <ul id="concep">
+                <ul id="concep"></ul>
 
-                </ul>
                 <h2 id="2" class="criteres">Réalisation</h2>
-                <ul id="rea">
+                <ul id="rea"></ul>
 
-                </ul>
                 <h2 id="3" class="criteres">Déploiement</h2>
-                <ul id="deploi">
+                <ul id="deploi"></ul>
 
-                </ul>
                 <h2 id="4" class="criteres">Administration</h2>
-                <ul id="admi">
+                <ul id="admi"></ul>
 
-                </ul>
                 <h2 id="5" class="criteres">Utilisation</h2>
-                <ul id="util">
+                <ul id="util"></ul>
 
-                </ul>
                 <h2 id="6" class="criteres">Maintenance</h2>
-                <ul id="maintenance">
+                <ul id="maintenance"></ul>
 
-                </ul>
                 <h2 id="7" class="criteres">Fin de Vie</h2>
-                <ul id="end">
+                <ul id="end"></ul>
 
-                </ul>
                 <h2 id="8" class="criteres">Revalorisation</h2>
-                <ul id="revalo">
+                <ul id="revalo"></ul>
 
-                </ul>
                 <h2 id="9" class="criteres">N/A</h2>
-                <ul id="N/A">
-
-                </ul>
+                <ul id="N/A"></ul>
             </article>
     </section>
 
+    <!--Bouton top-->
     <a href="#top" aria-label="Link to go to top" data-screen-only>
         <button class="top" aria-label="Button go to top"></button>
     </a>

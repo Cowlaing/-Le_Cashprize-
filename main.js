@@ -91,6 +91,8 @@ function affiche(jsonObj) {
     //config bouton
     input.value = "Ajouter";
     input.classList.add("bouton-ajouter");
+    //Ajout d'un id pour la gestion du panier
+    input.id = "bouton-"+jsonObj["ID"];
     input.addEventListener("click", function () {
       ajouterPanier(jsonObj["ID"]);
     });
@@ -108,10 +110,10 @@ function affiche(jsonObj) {
 }
 
 function afficheTout(jsonObj) {
-    var prat = jsonObj["listePratiques"];
-    for (var i = 0; i < prat.length; i++) {
-      affiche(prat[i]);
-    }
+  var prat = jsonObj["listePratiques"];
+  for (var i = 0; i < prat.length; i++) {
+    affiche(prat[i]);
+  }
 }
 
 var afficheT = new Map();
@@ -237,10 +239,26 @@ function ajouterPanier(id) {
     //Ajoute l'index de l'elemenet dans le panier
     panier.push(index);
     localStorage.setItem("panier", JSON.stringify(panier));
+    //Gestion du bouton
+    //Recherche du bouton avec l'id
+    let bouton = document.getElementById("bouton-"+id);
+    //Change la valeur du bouton en Supprimer
+    bouton.value = "Supprimer";
   } else {
-    window.alert("Deja dans le panier");
+    //Alors on supprime l'element du panier
+    let i = panier.indexOf(index);
+    if(i>-1){
+      panier.splice(i,1);
+    }
+    localStorage.setItem("panier", JSON.stringify(panier));
+    //Change la valeur du boutton en ajouter
+    let bouton = document.getElementById("bouton-"+id);
+    bouton.value ="Ajouter";
   }
   panier = Array.from(JSON.parse(localStorage.getItem("panier")));
+
+  
+
 }
 //vider le panier
 //localStorage.clear();

@@ -166,7 +166,9 @@
       <article class="main">
         <h2 class="titre">491 critères</h2>
         <p class="titre">Sélectionnez les bonnes pratiques que vous souhaitez ajouter à votre projet parmis les 491 critères du référentiel INR.</p>
-        <ul id="ulp"><!--LISTE DES CRITERES--></ul>
+        <ul id="ulp">
+          <!--LISTE DES CRITERES-->
+        </ul>
       </article>
     </div>
   </section>
